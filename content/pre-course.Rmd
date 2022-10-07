@@ -1,0 +1,46 @@
+---
+title: "NASIS BASIC TRAINING"
+author: "John Hammerly"
+date: '2022-10-07'
+output:
+  html_document:
+    number_sections: true
+---
+
+![](signature_b&w.gif){width=25%}
+
+Pre-Course Assignment
+
+## Open the NASIS Client
+
+### Locate the NASIS Editor
+
+Locate the NASIS Editor Client Software and execute it by browsing to the shortcut in the windows start menu. You will find it within the folder "USDA Applications":
+
+![](start-screen.png){width="25%"}
+
+### Alternate Method
+
+If the program is not present in the start menu, try to browse to the directory the program is stored in using Windows Explorer, typically the NASIS Editor client is located in "C:\\Program Files (x86)\\USDA\\NASIS 7.1 Client" the program file name you will need to open is "NASISEditor.exe".
+
+![](explorer-screen.png)
+
+### Request Support if Needed
+
+If you are still unable to locate the NASIS Editor Client Software, it is possible it has not yet been installed on your computer. You should request installation assistance from an Information Technology Specialist via the OCIO Help Icon shortcut on the desktop or via the OCIO Help Icon on the windows taskbar.
+
+## Log into NASIS
+
+### Network Requirement
+
+The NASIS Editor requires a network or internet connection the first time it runs to configure and set up the local database. You will not be able to use the Editor until this is complete.
+
+### Login Window
+
+When you have successfully launched the NASIS Editor you will see a window appear which will either attempt to sign you in to the software automatically using desktop single sign-on, or you may need to select your sign-in method and enter the appropriate credentials, this could be using your LincPass card and PIN, or your eAuth username and password if you do not have a LincPass.
+
+![](sign-in-screen.png){width="50%"}
+
+### Initialize the local database
+
+When the login completes successfully, you will see a message that you must first initialize the local database before you can start using the software. This will some time to complete, be patient! You can observe the progress by viewing the progress window.

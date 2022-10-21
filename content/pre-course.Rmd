@@ -4,6 +4,10 @@ author: "John Hammerly"
 date: "`r Sys.Date()`"
 output:
   html_document:
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    toc_depth: 3
     number_sections: true
 ---
 
@@ -61,17 +65,53 @@ The help menu opens to reveal a list of options to select. Choose the "About..."
 
 ![](help-screen.png){width=25%}
 
-The About NASIS window shows the NASIS Client Installed Version Number, Metadata Data Model Version, and Database File Size. This information can be shared with support staff to assist in troubleshooting issues with the NASIS Editor if needed.
+The About NASIS window shows the NASIS Client Installed Version Number, Metadata Data Model Version, and Database File Size. This information can be shared with support staff to assist in troubleshooting issues with the NASIS Editor if needed. Take a screenshot of this information to send to your mentor.
 
 ![](about-screen.png){width=50%}
 
+## Confirm User Information
+
+### Locate the NASIS Menu
+
+The NASIS menu can be accessed by clicking the "NASIS" text on the upper left part of editor which also contains other text for menus such as "Queries Explorer", "Editor", and "Help".
+
+![](nasis-menu-screen.png){width=50%}
+
+### Open the Manage User Profile Window
+
+The NASIS menu opens to reveal a list of options to select. Choose the "Manage User Profile..." option by clicking it.
+
+![](nasis-menu-user-screen.png){width=25%}
+
+### Review Information
+
+The Manage User Profile window shows information stored in the NASIS database about you as a user. It displays your windows login, name, description, phone, email address, default NASIS site, default NASIS group, and the date the object was last updated. Review the information and make any changes if necessary.
+
+![](user-screen.png){width=25%}
+
+### Set a Default NASIS Group
+
+If the Default NASIS group has not been set, you will need to choose a default NASIS group. This step is required before you can make edits or add new data to NASIS. Click the down arrow at the right of the default NASIS group attribute listed in the window to open a selection menu which will list all the groups of which you are currently a member. It is recommended to choose a point or pedon based group unique to your region and MLRA office, such as "MLRA SSO 11-WAV". The group you choose will be automatically populated as a data column for any new data you create. Consult with other local or regional staff familiar with NASIS or your mentor if you are unsure which group to select.
+
+![](default-group.png){width=50%}
+
+When you have finished choosing your default group, capture a screenshot of the Manage User Profile window to send to you mentor. You must also click the save button before closing the Manage User Profile window to keep any of the changes you have made.
+
+### Upload Changes
+
+The final step to commit the changes you have made to your user profile is to upload all changes to the national database. Do this by selecting the "Upload All Changes to National Database" menu option.
+
+![](upload-screen.png){width=25%}
+
+When the upload is complete, you can exit the NASIS client by selecting "Exit" from the NASIS menu or by clicking the "X" close window icon in the upper right of the NASIS client window.
+
 ## Complete and Submit Assignment
 
-### Capture a Screenshot and Send to Your Mentor
+### Send Screenshots to Your Mentor
 
-Capture a screenshot of the About NASIS window using the print screen key on your keyboard, and email it to your mentor to confirm you have the correct version of NASIS installed and it is ready to use in the upcoming training session.
+Send the screenshots you captured previously of the About NASIS window, and the Manage User Profile window via email to your mentor to confirm you have the correct version of NASIS installed, you have your default group correctly set, your user information is correct, and NASIS is ready to use in the upcoming training session.
 
 ## Additional Resources
 
-[USDA-NRCS NASIS Website](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/tools/?cid=nrcs142p2_053552)
+[USDA-NRCS NASIS Website](https://www.nrcs.usda.gov/resources/education-and-teaching-materials/national-soil-information-system-nasis)
 

@@ -41,7 +41,7 @@ The NASIS Editor requires a network or internet connection the first time it run
 
 ### Login Window
 
-When you have successfully launched the NASIS Editor you will see a window appear which will either attempt to sign you in to the software automatically using desktop single sign-on, or you may need to select your sign-in method and enter the appropriate credentials. This could be using your LincPass card and PIN, or your eAuth username and password if you do not have a LincPass. If you do not have an account you can find additional instructions for requesting a NASIS account [here]("https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/tools/?cid=nrcs142p2_053551#accounts").
+When you have successfully launched the NASIS Editor you will see a window appear which will either attempt to sign you in to the software automatically using desktop single sign-on, or you may need to select your sign-in method and enter the appropriate credentials. This could be using your LincPass card and PIN, or your eAuth username and password if you do not have a LincPass. If you do not have an account you can find additional instructions for requesting a NASIS account [here]("https://www.nrcs.usda.gov/resources/education-and-teaching-materials/nasis-frequently-asked-questions").
 
 ![](sign-in-screen.png){width="50%"}
 

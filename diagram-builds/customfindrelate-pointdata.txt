@@ -1,0 +1,6 @@
+"Site":"siteiid"->"Site Association Site":"siteiidref" [id="Site Site Association Site Relate_1", penwidth = 2, color = "hotpink", dir = "both"]
+"Transect":"tsectiid"->"Pedon":"tsectiidref" [id="Transect Pedon Relate_1", penwidth = 2, color = "hotpink", dir = "both"]
+"Site Observation":"siteobsiid"->"Pedon":"siteobsiidref" [id="Site Observation Pedon Relate_1", penwidth = 2, color = "hotpink", dir = "both"]
+"Site Observation":"siteobsiid"->"Vegetation Plot":"siteobsiidref" [id="Site Observation Vegetation Plot Relate_1", penwidth = 2, color = "hotpink", dir = "both"]
+"Project":"projectiid" ->"Site Observation":"projectiidref"[id="Project Site Observation Relate_1", penwidth = 2, color = "hotpink", dir = "both"]
+}

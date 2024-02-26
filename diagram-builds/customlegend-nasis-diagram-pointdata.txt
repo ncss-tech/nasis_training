@@ -1,0 +1,28 @@
+packmode= "graph"
+
+subgraph cluster_diagram_legend { label = "Diagram Legend"; fontname = Arial; fontsize =24;
+  
+  "Parent Table Name" [id = "Parent Table Name", label = <<TABLE ALIGN="LEFT" BORDER="1" CELLBORDER="0" CELLSPACING="0" >
+    <TR>
+      <TD COLSPAN="1" BORDER="0"><FONT>Parent Table Name</FONT>
+</TD>
+    </TR>
+    <TR>
+      <TD COLSPAN="1" BORDER="0" ><FONT COLSPAN="1" BORDER="0" POINT-SIZE="12">Parent Physical Table Name</FONT>
+</TD>
+    </TR>
+  </TABLE>>, shape = "plaintext"] 
+    "Child Table Name" [id = "Child Table Name", label = <<TABLE ALIGN="LEFT" BORDER="1" CELLBORDER="0" CELLSPACING="0" >
+    <TR>
+      <TD COLSPAN="1" BORDER="0"><FONT>Child Table Name</FONT>
+</TD>
+    </TR>
+    <TR>
+      <TD COLSPAN="1" BORDER="0" ><FONT COLSPAN="1" BORDER="0" POINT-SIZE="12">Child Physical Table Name</FONT>
+</TD>
+    </TR>
+  </TABLE>>, shape = "plaintext"] 
+
+"Child Table Name"->"Parent Table Name" [id="Parent Child_1", label = "Primary" style = "solid"]
+"Parent Table Name"->"Child Table Name" [id="Parent Child_2", penwidth = 2, color = "hotpink", label = "Find / Load Related", fontcolor = "hotpink", fontname = Arial, dir = "both" style = "solid"]
+}

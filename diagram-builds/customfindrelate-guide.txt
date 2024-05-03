@@ -1,0 +1,6 @@
+"Area":"areaiid"->"Legend":"areaiidref" [id="Area Legend Relate_1", penwidth = 3, color = "hotpink", dir = "both"] 
+
+"Area":"areaiid"->"Legend Area Overlap":"areaiidref" [id="Area Legend Area Overlap Relate_1", penwidth = 3, color = "hotpink", dir = "both"]
+
+"Legend":"liid"->"Distribution Legend Metadata":"liidref" [id="Legend Distribution Legend Metadata Relate_1", penwidth = 4, color = "darkorange1" style = dotted]
+}

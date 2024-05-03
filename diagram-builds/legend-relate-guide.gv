@@ -1,0 +1,100 @@
+#data_model
+digraph {
+graph [rankdir=RL fontname = Arial]
+
+node [margin=0 fontcolor = "#444444" fontname = Arial, style = invis]
+
+edge [color = "#555555", arrowsize = 1, dir = back]
+
+pack=true
+packmode= "graph"
+
+subgraph cluster_diagram_legend { id = "Diagram Legend"; fontname = Arial; fontsize =54;
+"Child Table Name2" [id = "Child Table Name2", label = <<TABLE ALIGN="LEFT" BORDER="1" CELLBORDER="0" CELLSPACING="0" >
+    <TR>
+      <TD COLSPAN="1" BORDER="0"><FONT>Child Table Name</FONT>
+</TD>
+    </TR>
+    <TR>
+      <TD COLSPAN="1" BORDER="0" ><FONT COLSPAN="1" BORDER="0" POINT-SIZE="12">Child Physical Table Name</FONT>
+</TD>
+    </TR>
+  </TABLE>>, shape = "plaintext"]   
+  "Parent Table Name2" [id = "Parent Table Name2", label = <<TABLE ALIGN="LEFT" BORDER="1" CELLBORDER="0" CELLSPACING="0" >
+    <TR>
+      <TD COLSPAN="1" BORDER="0"><FONT>Parent Table Name</FONT>
+</TD>
+    </TR>
+    <TR>
+      <TD COLSPAN="1" BORDER="0" ><FONT COLSPAN="1" BORDER="0" POINT-SIZE="12">Parent Physical Table Name</FONT>
+</TD>
+    </TR>
+  </TABLE>>, shape = "plaintext"] 
+
+"Child Table Name1" [id = "Child Table Name1", label = <<TABLE ALIGN="LEFT" BORDER="1" CELLBORDER="0" CELLSPACING="0" >
+    <TR>
+      <TD COLSPAN="1" BORDER="0"><FONT>Child Table Name</FONT>
+</TD>
+    </TR>
+    <TR>
+      <TD COLSPAN="1" BORDER="0" ><FONT COLSPAN="1" BORDER="0" POINT-SIZE="12">Child Physical Table Name</FONT>
+</TD>
+    </TR>
+  </TABLE>>, shape = "plaintext"]   
+  "Parent Table Name1" [id = "Parent Table Name1", label = <<TABLE ALIGN="LEFT" BORDER="1" CELLBORDER="0" CELLSPACING="0" >
+    <TR>
+      <TD COLSPAN="1" BORDER="0"><FONT>Parent Table Name</FONT>
+</TD>
+    </TR>
+    <TR>
+      <TD COLSPAN="1" BORDER="0" ><FONT COLSPAN="1" BORDER="0" POINT-SIZE="12">Parent Physical Table Name</FONT>
+</TD>
+    </TR>
+  </TABLE>>, shape = "plaintext"] 
+  "Child Table Name" [id = "Child Table Name", label = <<TABLE ALIGN="LEFT" BORDER="1" CELLBORDER="0" CELLSPACING="0" >
+    <TR>
+      <TD COLSPAN="1" BORDER="0"><FONT>Child Table Name</FONT>
+</TD>
+    </TR>
+    <TR>
+      <TD COLSPAN="1" BORDER="0" ><FONT COLSPAN="1" BORDER="0" POINT-SIZE="12">Child Physical Table Name</FONT>
+</TD>
+    </TR>
+  </TABLE>>, shape = "plaintext"]   
+  "Parent Table Name" [id = "Parent Table Name", label = <<TABLE ALIGN="LEFT" BORDER="1" CELLBORDER="0" CELLSPACING="0" >
+    <TR>
+      <TD COLSPAN="1" BORDER="0"><FONT>Parent Table Name</FONT>
+</TD>
+    </TR>
+    <TR>
+      <TD COLSPAN="1" BORDER="0" ><FONT COLSPAN="1" BORDER="0" POINT-SIZE="12">Parent Physical Table Name</FONT>
+</TD>
+    </TR>
+  </TABLE>>, shape = "plaintext"]   
+  "Child Table Name3" [id = "Child Table Name3", label = <<TABLE ALIGN="LEFT" BORDER="1" CELLBORDER="0" CELLSPACING="0" >
+    <TR>
+      <TD COLSPAN="1" BORDER="0"><FONT>Child Table Name</FONT>
+</TD>
+    </TR>
+    <TR>
+      <TD COLSPAN="1" BORDER="0" ><FONT COLSPAN="1" BORDER="0" POINT-SIZE="12">Child Physical Table Name</FONT>
+</TD>
+    </TR>
+  </TABLE>>, shape = "plaintext"]   
+  "Parent Table Name3" [id = "Parent Table Name3", label = <<TABLE ALIGN="LEFT" BORDER="1" CELLBORDER="0" CELLSPACING="0" >
+    <TR>
+      <TD COLSPAN="1" BORDER="0"><FONT>Parent Table Name</FONT>
+</TD>
+    </TR>
+    <TR>
+      <TD COLSPAN="1" BORDER="0" ><FONT COLSPAN="1" BORDER="0" POINT-SIZE="12">Parent Physical Table Name</FONT>
+</TD>
+    </TR>
+  </TABLE>>, shape = "plaintext"] 
+"Child Table Name2"->"Parent Table Name2" [id="Parent Child_1", label = "Primary" style = "solid" fontname = Arial ]
+"Child Table Name1"->"Parent Table Name1" [id="Parent Child_4", penwidth = 2, style = "dashed" label = "Secondary", fontname = Arial ]
+"Child Table Name"->"Parent Table Name" [id="Parent Child_3", penwidth = 4, color = "darkorange1", label = "Referenced", fontcolor = "darkorange1", fontname = Arial style = "dotted"]
+"Child Table Name3"->"Parent Table Name3" [id="Parent Child_2", penwidth = 3, color = "hotpink", label = "Find / Load Related", fontcolor = "hotpink", fontname = Arial, dir = "both" style = "solid"]
+
+}
+}

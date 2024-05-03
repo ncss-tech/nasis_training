@@ -1,0 +1,293 @@
+seq,Table Name,newseq
+2,Parent Table Name,1
+1,Child Table Name,2
+73,Distribution Metadata,3
+72,Distribution Interp Metadata,4
+74,Distribution Legend Metadata,5
+75,Distribution Text Metadata,6
+65,Distribution Mapunit Metadata,7
+22,Distribution Component Metadata,8
+80,Rule,9
+79,Evaluation,10
+81,Evaluation Text,11
+227,Property,12
+228,Property Text,13
+233,Rule Rating Class,14
+234,Rule Text,15
+5,Legend,16
+105,Legend Certification History,17
+6,Legend Area Overlap,18
+108,Legend Mapunit Area Overlap,19
+106,Legend Export Certification History,20
+111,Legend Text,21
+107,Legend Mapunit,22
+110,Legend Mapunit Text,23
+109,Legend Mapunit History,24
+4,Area Type,25
+3,Area,26
+7,Area Text,27
+211,Project,28
+115,Project Mapunit,29
+225,Project Text,30
+226,Project Type,31
+214,Project Correlation,32
+122,Project Milestone,33
+121,Milestone Type,34
+222,Project Milestone Progress,35
+220,Project Staff,36
+219,Project Mapping Goal,37
+217,Project Field Review,38
+218,Project Land Category Breakdown,39
+221,Project Mapping Progress,40
+212,Project Concern Need,41
+213,Project Concern Type,42
+215,Project Data Need,43
+216,Project Data Type,44
+223,Project Product,45
+78,Project Ecological Site,46
+77,Ecological Site,47
+224,Project Subtype,48
+59,Mapunit,49
+117,Mapunit Text,50
+119,Mapunit USFS Interpretation,51
+120,Mapunit USFS Interpretation Restriction,52
+287,USFS Interpretation Restriction,53
+285,USFS Interpretation Category,54
+284,USFS Interpretation,55
+286,USFS Interpretation Rating Class,56
+116,Mapunit History,57
+58,Correlation,58
+118,Mapunit USFS Ecological Classification,59
+283,USFS Ecological Classification Type,60
+282,USFS Ecological Classification Level,61
+281,USFS Ecological Classification,62
+21,Data Mapunit,63
+20,Component,64
+68,Data Mapunit Text,65
+66,Data Mapunit Certification History,66
+67,Data Mapunit Crop Yield,67
+33,Component Hydric Criteria,68
+34,Component Inundation Type,69
+32,Component Geomorphic Description,70
+86,Geomorphic Feature Type,71
+85,Geomorphic Feature,72
+35,Component Microrelief Surface Morphometry,73
+43,Component Slope Shape Surface Morphometry,74
+51,Component Three Dimensional Surface Morphometry,75
+53,Component Two Dimensional Surface Morphometry,76
+41,Component Potential Windbreak,77
+42,Component Restrictions,78
+46,Component Surface Fragments,79
+47,Component Taxonomic Family Mineralogy,80
+48,Component Taxonomic Family Other Criteria,81
+49,Component Taxonomic Moisture Class,82
+50,Component Text,83
+36,Component Month,84
+44,Component Soil Moisture,85
+45,Component Soil Temperature,86
+52,Component Trees To Manage,87
+54,Component USFS Ecological Classification,88
+55,Component USFS Ground Cover,89
+40,Component Pedon,90
+39,Component Parent Material Group,91
+38,Component Parent Material,92
+56,Component USFS Interpretation,93
+57,Component USFS Interpretation Restriction,94
+23,Component Canopy Cover,95
+91,Horizon,96
+26,Component Ecological Site,97
+27,Component Ecological Site History,98
+24,Component Crop Yield,99
+25,Component Diagnostic Features,100
+37,Component Other Vegetative Classification,101
+133,Other Vegetative Classification Type,102
+132,Other Vegetative Classification,103
+28,Component Erosion Accelerated,104
+30,Component Forest Productivity,105
+31,Component Forest Productivity - Other,106
+29,Component Existing Plants,107
+129,NCSS Pedon Lab Data,108
+128,NCSS Layer Lab Data,109
+134,Pedon,110
+190,Pedon Soil Stability,111
+191,Pedon Taxonomic History,112
+194,Pedon Taxonomic History Moisture Class,113
+192,Pedon Taxonomic History Family Mineralogy,114
+193,Pedon Taxonomic History Family Other Criteria,115
+195,Pedon Text,116
+260,Soil Monitor Data,117
+266,Soil Temperature Monitor Data,118
+259,Soil Moisture Monitor Data,119
+273,Transect,120
+280,Transect Text,121
+274,Transect Estimated Composition,122
+135,Pedon Diagnostic Features,123
+136,Pedon Field Measured Property,124
+137,Pedon Horizon,125
+180,Pedon Hydric Field Indicator,126
+182,Pedon Infiltration Summary,127
+186,Pedon Infiltration Falling Head,128
+187,Pedon Infiltration Falling Head Data,129
+181,Pedon Infiltration Constant Head,130
+183,Pedon Infiltration Constant Head Data,131
+184,Pedon Infiltration Cornell Infiltrometer,132
+185,Pedon Infiltration Cornell Infiltrometer Data,133
+188,Pedon Penetration Resistance,134
+189,Pedon Restrictions,135
+151,Pedon Horizon Designation Suffix,136
+152,Pedon Horizon Features,137
+153,Pedon Horizon Features Color,138
+154,Pedon Horizon Field Measured Property,139
+155,Pedon Horizon Fragments,140
+158,Pedon Horizon Human Artifacts,141
+162,Pedon Horizon Ksat Summary,142
+161,Pedon Horizon Ksat Amoozemeter,143
+163,Pedon Horizon Ksat Amoozemeter Data,144
+164,Pedon Horizon Ksat Ring,145
+165,Pedon Horizon Ksat Ring Data,146
+146,Pedon Horizon Lab Results,147
+145,Pedon Horizon COLE Data,148
+157,Pedon Horizon Grain Count Summary,149
+156,Pedon Horizon Grain Count Data,150
+159,Pedon Horizon Hydrometer Analysis,151
+160,Pedon Horizon Hydrometer Data,152
+166,Pedon Horizon Mottles,153
+167,Pedon Horizon Ped Void Surface Features,154
+168,Pedon Horizon Ped Void Surface Features Color,155
+169,Pedon Horizon Pores,156
+170,Pedon Horizon Redoximorphic Features,157
+171,Pedon Horizon Redoximorphic Features Color,158
+172,Pedon Horizon Roots,159
+173,Pedon Horizon Sample,160
+174,Pedon Horizon Soil Structure,161
+175,Pedon Horizon Text,162
+176,Pedon Horizon Texture,163
+177,Pedon Horizon Texture Modifier,164
+178,Pedon Horizon VNIR Scan,165
+179,Pedon Horizon VNIR Scan Result,166
+138,Pedon Horizon Bulk Density,167
+142,Pedon Horizon Bulk Density Scoop,168
+143,Pedon Horizon Bulk Density Scoop Reading,169
+139,Pedon Horizon Bulk Density Compliant Cavity,170
+140,Pedon Horizon Bulk Density Core,171
+141,Pedon Horizon Bulk Density Core Reading,172
+144,Pedon Horizon Cementing Agent,173
+147,Pedon Horizon Color,174
+148,Pedon Horizon Concentrations,175
+149,Pedon Horizon Concentrations Color,176
+150,Pedon Horizon Cracks,177
+94,Horizon Designation Suffix,178
+95,Horizon Fragments,179
+96,Horizon Human Artifacts,180
+97,Horizon Pores,181
+99,Horizon Structure Group,182
+98,Horizon Structure,183
+100,Horizon Text,184
+102,Horizon Texture Group,185
+101,Horizon Texture,186
+103,Horizon Texture Modifier,187
+104,Horizon Unified,188
+92,Horizon AASHTO,189
+93,Horizon Consistence,190
+124,NASIS Site,191
+126,NASIS Site Administrator,192
+123,NASIS Group,193
+125,NASIS Group Member,194
+127,NASIS User,195
+261,Soil Series,196
+262,Soil Series MLRAs Using,197
+263,Soil Series States Using,198
+264,Soil Series Taxonomic Family Other,199
+265,Soil Series Taxonomic Mineralogy,200
+82,Form,201
+83,Form Text,202
+14,Calculation,203
+15,Calculation Text,204
+231,Report,205
+232,Report Text,206
+229,Query,207
+230,Query Text,208
+240,Site Association,209
+241,Site Association Text,210
+236,Site Association Site,211
+269,Technical Soil Service,212
+268,Tech Soil Service Text,213
+270,Technical Soil Service Program Benefitted,214
+271,Technical Soil Service Type,215
+237,Technical Soil Service Site,216
+235,Site,217
+243,Site Ecological Site History,218
+17,Site Observation,219
+249,Site Observation Text,220
+252,Site Soil Moisture,221
+253,Site Soil Temperature,222
+254,Site Surface Fragments,223
+16,Climate Station,224
+244,Site Erosion Accelerated,225
+246,Site Inundation Type,226
+247,Site IRIS Tube Data,227
+250,Site Other Vegetative Classification,228
+251,Site Parent Material,229
+255,Site Text,230
+239,Site Associated Soils,231
+258,Site USGS Quadrangle Overlap,232
+289,USGS Quadrangle Type,233
+288,USGS Quadrangle,234
+242,Site Bedrock,235
+245,Site Geomorphic Description,236
+248,Site Mapunit Overlap,237
+238,Site Area Overlap,238
+63,Vegetation Plot,239
+13,Vegetation Transect,240
+90,Transect Ground Surface Cover,241
+89,Ground Surface Cover Details,242
+277,Transect Overstory Canopy Cover,243
+278,Transect Sampling Protocol Used,244
+11,Vegetation Transect Plant Summary,245
+69,Daubenmire Canopy Cover Class Summary,246
+70,Daubenmire Canopy Cover Quad Details,247
+71,Density Quadrat Details,248
+76,Dry Weight Rank Quadrat Details,249
+84,Frequency Quadrat Details,250
+130,Nested Frequency Quadrat Details,251
+131,Nested Frequency Summary,252
+199,Plant Production Quadrat Details,253
+210,Point Plant Cover Details,254
+10,Belt Data,255
+291,Vegetation Transect Text,256
+279,Transect Standing Biomass Details,257
+12,Belt Transect Summary,258
+18,Comparative Yield Data,259
+19,Comparative Yield Reference Quadrats,260
+272,Total Quadrat Harvest,261
+275,Transect Gap Details,262
+88,Transect Ground Cover,263
+87,Ground Cover Details,264
+276,Transect Ground Cover Data - Legacy,265
+114,Main Forest Stand Details,266
+201,Plot Disturbance,267
+202,Plot Grazing Use,268
+61,Crop Tree Summary,269
+62,Crop Tree Subplot Details,270
+64,Crop Tree Totals,271
+60,Crop Tree Details,272
+9,Plot Species Basal Area,273
+8,Basal Area Trees Counted,274
+205,Plot Tree Inventory,275
+209,Plot Trees Counted,276
+204,Plot Sampling Protocol Used,277
+207,Plot Tree Site Index Summary,278
+206,Plot Tree Site Index Details,279
+257,Site Woody Basal Area,280
+256,Site Trees Counted,281
+208,Plot Tree Summary,282
+197,Plot Plant Inventory,283
+267,Subplot Plant Details,284
+112,Local Plant,285
+113,Local Plant Area Occurrence,286
+196,Plant,287
+203,Plot Plant Type Canopy Cover,288
+200,Plant Synonym,289
+198,Plant Area Occurrence,290
+290,Vegetation Plot Text,291
+292,Windbreak Row Data,292

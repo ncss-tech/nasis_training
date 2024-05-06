@@ -5,17 +5,15 @@ author:
   - name: "Soil and Plant Science Division Staff"
     affiliation:
     - USDA-NRCS
-format: html
+format:
+  html:
+    page-layout: full
+    toc: true
+    toc-location: left
+    toc-depth: 3
 editor: visual
 date: today
 title-block-banner: "#19567B"
-output:
-  html_document:
-    toc: true
-    toc_float:
-      toc_collapsed: true
-    toc_depth: 3
-    number_sections: true
 ---
 
 ## Open the NASIS Client

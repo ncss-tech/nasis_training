@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Soil and Plant Science Division Staff">
+<meta name="dcterms.date" content="2024-05-07">
+
+<title>NASIS Basic Training</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="calcsvals_files/libs/clipboard/clipboard.min.js"></script>
+<script src="calcsvals_files/libs/quarto-html/quarto.js"></script>
+<script src="calcsvals_files/libs/quarto-html/popper.min.js"></script>
+<script src="calcsvals_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="calcsvals_files/libs/quarto-html/anchor.min.js"></script>
+<link href="calcsvals_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="calcsvals_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="calcsvals_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="calcsvals_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="calcsvals_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: #19567B;
+      }
+</style>
+
+
+</head>
+
+<body>
+
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">NASIS Basic Training</h1>
+            <p class="subtitle lead">Calculations and Validations</p>
+                      </div>
+  </div>
+    
+  <div class="quarto-title-meta-author">
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Affiliation</div>
+    
+      <div class="quarto-title-meta-contents">
+      <p class="author">Soil and Plant Science Division Staff </p>
+    </div>
+      <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              USDA-NRCS
+            </p>
+        </div>
+      </div>
+
+  <div class="quarto-title-meta">
+
+        
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 7, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#exercise-8.1-calculations" id="toc-exercise-8.1-calculations" class="nav-link active" data-scroll-target="#exercise-8.1-calculations">Exercise 8.1 – Calculations</a>
+  <ul class="collapse">
+  <li><a href="#create-a-new-pedon" id="toc-create-a-new-pedon" class="nav-link" data-scroll-target="#create-a-new-pedon">Create a New Pedon</a></li>
+  <li><a href="#select-and-calculate-series-classification" id="toc-select-and-calculate-series-classification" class="nav-link" data-scroll-target="#select-and-calculate-series-classification">Select and Calculate Series Classification</a></li>
+  <li><a href="#calculate-current-taxon-name" id="toc-calculate-current-taxon-name" class="nav-link" data-scroll-target="#calculate-current-taxon-name">Calculate Current Taxon Name</a></li>
+  <li><a href="#screenshots" id="toc-screenshots" class="nav-link" data-scroll-target="#screenshots">Screenshots</a></li>
+  </ul></li>
+  <li><a href="#exercise-8.2---validations" id="toc-exercise-8.2---validations" class="nav-link" data-scroll-target="#exercise-8.2---validations">Exercise 8.2 - Validations</a>
+  <ul class="collapse">
+  <li><a href="#load-pedon" id="toc-load-pedon" class="nav-link" data-scroll-target="#load-pedon">Load Pedon</a></li>
+  <li><a href="#validate-data-in-the-pedon-table" id="toc-validate-data-in-the-pedon-table" class="nav-link" data-scroll-target="#validate-data-in-the-pedon-table">Validate Data in the Pedon Table</a></li>
+  <li><a href="#run-multiple-validations" id="toc-run-multiple-validations" class="nav-link" data-scroll-target="#run-multiple-validations">Run Multiple Validations</a></li>
+  <li><a href="#screenshots-1" id="toc-screenshots-1" class="nav-link" data-scroll-target="#screenshots-1">Screenshots</a></li>
+  </ul></li>
+  <li><a href="#exercise-8.3---interpretations" id="toc-exercise-8.3---interpretations" class="nav-link" data-scroll-target="#exercise-8.3---interpretations">Exercise 8.3 - Interpretations&nbsp;</a>
+  <ul class="collapse">
+  <li><a href="#query-data" id="toc-query-data" class="nav-link" data-scroll-target="#query-data">Query Data&nbsp;</a></li>
+  <li><a href="#choose-a-component" id="toc-choose-a-component" class="nav-link" data-scroll-target="#choose-a-component">Choose a Component&nbsp;</a></li>
+  <li><a href="#run-an-interpretation" id="toc-run-an-interpretation" class="nav-link" data-scroll-target="#run-an-interpretation">Run an interpretation</a></li>
+  <li><a href="#send-report" id="toc-send-report" class="nav-link" data-scroll-target="#send-report">Send Report</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="exercise-8.1-calculations" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-8.1-calculations">Exercise 8.1 – Calculations</h2>
+<section id="create-a-new-pedon" class="level3">
+<h3 class="anchored" data-anchor-id="create-a-new-pedon">Create a New Pedon</h3>
+<p>Open the Pedon table and add a new row. Select the Site/Site Obs of the one you created for the Edit Data exercise. It should be named NASIS Training Example 1 lastname, firstname. Next, fill in the User Pedon ID column with the same information as the user site id.</p>
+<p>Next expand the pedon table to show the child tables and select the Pedon Taxonomic History Table. Create a new row in this table and add today’s date to the Classification Date. Next click on the empty cell below the classification name column. Notice the 3 dots button on the right side of the column.</p>
+<p>Click this to open a series selection window that will assist in calculating many of the columns required for properly populating the taxonomy of a particular series.</p>
+</section>
+<section id="select-and-calculate-series-classification" class="level3">
+<h3 class="anchored" data-anchor-id="select-and-calculate-series-classification">Select and Calculate Series Classification</h3>
+<p>This series selection window guides you through the process of selecting and calculating the series classification. It will perform a search of the existing series and populate the correct information automatically.</p>
+<p><img src="8-series.png" class="img-fluid"></p>
+<p>Begin by choosing series as the Taxon Kind then type in “Tama” into the taxon name, then click the find by series name. Below you will see the search results. If there is more than one match you can browse to the next or previous results by clicking the arrow buttons.</p>
+<p>Click the green arrow button to copy the Tama classification information to the pedon taxonomic classes. There are also cases where you may have the pedon classified, but may not know a series that fits. In these cases, you can populate the taxonomy first and search for matching series by clicking the find series by classification button.</p>
+<p>Take a screenshot to submit, then click the save button on the series selection window to return to the table view. You will now see the data is populated and the taxonomic class is showing the “C” icon on the right side in an S (meaning status) column, meaning it has been calculated.</p>
+<p><img src="8-series-status.png" class="img-fluid"></p>
+<p>Right click on the “S” column and select view information. What does the column description tell you about the column? What are the other possible statuses? You will see this “S” column paired with many other columns in the database</p>
+</section>
+<section id="calculate-current-taxon-name" class="level3">
+<h3 class="anchored" data-anchor-id="calculate-current-taxon-name">Calculate Current Taxon Name</h3>
+<p>Return to the pedon table and locate the “current taxon name” column. This column is empty but notice it has an “S” column.</p>
+<p><img src="8-current-class.png" class="img-fluid"></p>
+<p>Open the calculations/validations tab in the table of contents to the left and expand the calculations folder. The calculations are organized by the table they operate on. Find the Pedon folder since the calculation we want will be for the current taxon name in the pedon table and expand it. Right click on the “Pedon Current Taxonomic Classification” and click “run for all rows in selected set”.</p>
+<p><img src="8-calc.png" class="img-fluid"></p>
+<p>A window will appear providing additional options for controlling how the calculation works:</p>
+<p><img src="8-calc-run.png" class="img-fluid"></p>
+<p>In this case we have neither manual nor prior values so these options will not change the outcome of our calculation so leave both unchecked. There may be instances where enabling these options can be useful for example if you had prior values or manual values that you wanted to replace, the calculation would not by default replace those values, instead you would need to check the boxes to overwrite them. Now upload your changes and check your data back in. You will be using this pedon in the next exercise.</p>
+</section>
+<section id="screenshots" class="level3">
+<h3 class="anchored" data-anchor-id="screenshots">Screenshots</h3>
+<p>Take a screenshot of the columns that were calculated with the current taxon name calculation and submit it along with your other screenshot by placing in your exercise submission folder.</p>
+<p><strong>End of Exercise</strong></p>
+</section>
+</section>
+<section id="exercise-8.2---validations" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-8.2---validations">Exercise 8.2 - Validations</h2>
+<section id="load-pedon" class="level3">
+<h3 class="anchored" data-anchor-id="load-pedon">Load Pedon</h3>
+<p>Use your pedon from the previous exercise. If you don’t have it in your selected set, query for it. Once you have the pedon loaded open the Pedon table.</p>
+</section>
+<section id="validate-data-in-the-pedon-table" class="level3">
+<h3 class="anchored" data-anchor-id="validate-data-in-the-pedon-table">Validate Data in the Pedon Table</h3>
+<p>Validations are organized in the same way as calculations. Find the Validations folder in the Calculations/Validations section of the table of contents and expand it to view the sub-folders. Find the pedon folder and expand it.</p>
+<p><img src="8-2-val.png" class="img-fluid"></p>
+<p>Right click on the “DSP Intermediate Tier - Earthworms” Validation and select “Run for all rows in selected set. Notice the validation results window has updated with a message</p>
+<p><img src="8-2-val-results.png" class="img-fluid"></p>
+<p>The message indicates the issue, and you can use the hyperlink to highlight the offending row. Find the Field Measured Property Name column in the Pedon Field Measured Property table and correct the error by populating it with “earthworms”. Now run the same validation again. Notice a new set of errors has appeared. Some validations check for only one data element, others check multiple data elements. This one looks at multiple. Continue making the required corrections and then take a screenshot of the status messages window showing zero errors found and save it to submit.</p>
+</section>
+<section id="run-multiple-validations" class="level3">
+<h3 class="anchored" data-anchor-id="run-multiple-validations">Run Multiple Validations</h3>
+<p>You can also run multiple validations at one time by holding down the ctrl key and clicking each validation you want to run, or by holding the shift key to select all validations between the first and last validation selected. Select the first validation in the pedon folder hold shift and select the last validation in the folder. Now right click and select “run for all rows in selected set”</p>
+</section>
+<section id="screenshots-1" class="level3">
+<h3 class="anchored" data-anchor-id="screenshots-1">Screenshots</h3>
+<p>Take a screenshot of the validations results window after running the validations above. Submit this along with your other screenshot by adding it to your exercise submission folder.</p>
+<p><strong>End of Exercise</strong></p>
+</section>
+</section>
+<section id="exercise-8.3---interpretations" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-8.3---interpretations">Exercise 8.3 - Interpretations&nbsp;</h2>
+<section id="query-data" class="level3">
+<h3 class="anchored" data-anchor-id="query-data">Query Data&nbsp;</h3>
+<p>In the NSSC Pangaea folder, run the “Area/Legend/Mapunit/DMU by areasymbol (official data)” query to get the data into your selected set. Recall the steps you need to take to do this. You can refer to the previous exercises if needed. Use areasymbol “IA001”.&nbsp;</p>
+</section>
+<section id="choose-a-component" class="level3">
+<h3 class="anchored" data-anchor-id="choose-a-component">Choose a Component&nbsp;</h3>
+<p>Interpretations run on components, so you will need to choose a component from the component table. Highlight the row of your choice.&nbsp;</p>
+</section>
+<section id="run-an-interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="run-an-interpretation">Run an interpretation</h3>
+<p>There are 3 entirely separate courses offered by SPSD that cover the in-depth details of interpretations, so for this training we won’t dive too deep into everything there is to know about them. We will show you how to run them and view the results. Click the interpretations tab in the table of contents. Notice there are checkboxes for view ready to use only, view primary rules only and view checked out only. Make sure the view ready to use only and view primary rules only are checked.</p>
+<p><img src="8-3-interps.png" class="img-fluid"></p>
+<p>There are 3 folders in the interpretations tab: rules, evaluations, and properties. The rules folder contains the interpretations you may already be familiar with. These are the basis for the interpretations you see on Web Soil Survey. The evaluations and properties folders are different parts that are used to generate data that the rule uses to make the interpretation.</p>
+<p>Expand the rules folder and then notice the more familiar folder structure now is broken down by NASIS sites or regions, which contain the rules. Expand the NSSC Pangaea folder and right click “ENG – Dwellings With Basements” then select run against local database.</p>
+<p>A browser window will appear with the results of the interpretation on the component you had highlighted previously. The first row in the table provides the rating for the Interpretation, followed by the individual sub-rules that are parts of it. A rule can have many sub-rules, and each sub-rule multiple evaluations and each evaluation a property. Scroll down farther in the document to see the results of the evaluations and properties. Save this HTML report to send to your mentor.</p>
+<p>Running interpretations on your data is an important part of ensuring the values in the database are reasonable and interpreting as expected.</p>
+</section>
+<section id="send-report" class="level3">
+<h3 class="anchored" data-anchor-id="send-report">Send Report</h3>
+<p>Submit the report you saved by adding it to your submission folder.</p>
+<p><strong>End of Exercise</strong></p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

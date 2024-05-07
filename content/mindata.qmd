@@ -1,0 +1,25 @@
+---
+title: "NASIS Basic Training"
+subtitle: "Minimum Data Standards"
+author:
+  - name: "Soil and Plant Science Division Staff"
+    affiliation:
+    - USDA-NRCS
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 3
+date: today
+title-block-banner: "#19567B"
+---
+
+## Exercise 9
+
+### Run a Minimum Data Standard Report
+
+Select a Minimum data Standard report and run it on any data set (region, MLRA office, state, fips code). If there are not any errors, try another report. Keep running reports until you get an error page. Be cognizant of using the % sign. 
+
+### Screenshot
+Take a screenshot of the top error page and submit by adding it to your submission folder. 
+---

@@ -1,0 +1,35 @@
+---
+title: "NASIS Basic Training"
+subtitle: "Using Forms"
+author:
+  - name: "Soil and Plant Science Division Staff"
+    affiliation:
+    - USDA-NRCS
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 3
+date: today
+title-block-banner: "#19567B"
+---
+
+## Exercise 7 - Use a Form to Compare Data
+
+### Open Form
+
+Open the form "COMP-Compare Horizons with depths" (found in SSRO_North_Central folder).
+
+### Load Data
+
+Load datamapunits from any survey area.
+
+### View Data
+
+Use the navigation buttons at the bottom of the form to change to another component.
+
+Scan through until you find an error where depths do not match, or feature is missing in one of the tables. A properly populated component should have diagnostic features and parent material table data. Water and Restrictive tables are only populated if needed; compare these tables to the taxonomic class above.
+
+### Screenshot
+
+Submit a screenshot of the form and place it in your exercise submission folder to complete the exercise. If do not find any errors take a screen shot of the last component 

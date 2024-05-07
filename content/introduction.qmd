@@ -1,0 +1,30 @@
+---
+title: "NASIS Basic Training"
+subtitle: "Introduction"
+author:
+  - name: "Soil and Plant Science Division Staff"
+    affiliation:
+    - USDA-NRCS
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 3
+date: today
+title-block-banner: "#19567B"
+---
+## Exercise 1 - Introduction to NASIS Data Model and Diagrams
+
+### Using The NASIS Data Model Structure Diagrams
+
+Using the NASIS Data Model Structure Diagrams and Guides:
+
+1. Trace a relationship path from the Site table to the Data Mapunit table. Which tables did you pass through to get there?
+2. Find the Belt Data table. What table collection is it part of? What is its table description?
+3. Find the Legend table. How many relationships are shown connecting to it and which types are they?
+4. How many different table collections are there?
+5. Where can you find additional information about the NASIS tables and columns?
+
+### Submit Answers
+
+Submit your answers to the questions by including them in a document and then adding it to a self-named folder you create in the Microsoft Teams exercise submission folder.

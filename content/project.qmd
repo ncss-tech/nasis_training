@@ -1,0 +1,38 @@
+---
+title: "NASIS Basic Training"
+subtitle: "Project Management"
+author:
+  - name: "Soil and Plant Science Division Staff"
+    affiliation:
+    - USDA-NRCS
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 3
+date: today
+title-block-banner: "#19567B"
+---
+
+## Exercise 10 - Project Management
+
+### Load Project
+
+Use your knowledge gained during the course to load the temporary training project containing your NASIS username from Exercise 4.1.
+
+### Add and Edit Data
+
+Using the project you loaded, edit and add appropriate data to the project table and child tables for a fictitious project to serve as an example for this exercise. For the purposes of the training, keep the user project id and project name as they are.
+
+The main goal of this exercise is to get some practice entering and editing data within the context of a project, and develop an understanding of the importance of keeping data consistent between the columns and tables. Practice the following:
+
+* Write a project description and add it to the project description column
+* Find similar named mapunits to add to the project mapunit table
+* Add an ecological site to the project ecological site table
+* Add milestones and dates to the project milestone table
+* Add yourself as a project staff member
+* Add project type, subtype and MLRA SSO Area
+
+### Upload Changes
+
+When you have completed the project practice items, upload the changes and check the data back in. Your mentor will review the NASIS entry.

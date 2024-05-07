@@ -1,0 +1,117 @@
+---
+title: "NASIS Basic Training"
+subtitle: "Querying and Loading Data"
+author:
+  - name: "Soil and Plant Science Division Staff"
+    affiliation:
+    - USDA-NRCS
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 3
+date: today
+title-block-banner: "#19567B"
+---
+
+## Exercise 3.1 – Query and Load Data
+
+### Query Against National Database
+
+Open the queries tab in the table of contents on the left side of the NASIS client. Expand the NSSC Pangaea folder by clicking the right facing triangle to the left of the folder icon and locate and select the query named “Area/Legend by areasymbol”. Run the query against the national database by either right clicking and selecting the option available in the context menu or use the button on the toolbar.
+
+Why is it important to run against the national database first? Write your answer down and keep it to send to your mentor.
+
+In this particular query, by default the target table **legend** is selected, and cannot be changed. All objects are also already selected by default in this case. Leave them checked. Area Type Name and Area Symbol are blank and need information entered in order for the query to run.
+
+Click the Run button now to see what happens when you try and run it without entering any information. What do you notice?
+
+Now fill in the query. Use Area Type Name: **Test** and use Area Symbol: **Test**
+
+After running a query against the national database, you will see the local database view. This is where we can manage the data we have stored locally. If you have already used NASIS before the training and loaded data into your local database, you may already see data here. Notice each object in NASIS has its own tab. You can click the tabs to explore the local database data.
+
+How many legends were found using your query? How many sites? Where can you find this information?
+
+### Accept the Data into your Local Database
+
+If you have a significant amount of data in your local database already, you might want to clear your local database for this course. To do this select the “Clear Local Database” button. If you do, you will need to run the previous query again. On the legend tab select the row with the Rec ID = 17013. Notice you can use sorting and the auto filter row in this view but not the filter editor.
+
+After selecting the row click the “Exclude” button. What do you see different in the “Location” column?
+
+Use the Exclude or Include buttons to further refine the results of your query and customize the data that will go into your local database. Now click the “Accept” button. This downloads the national data into your local database.
+
+### Query Against the Local Database
+
+In order to fully explore and edit data you need to query your local data and put it in your selected set. Do this by highlighting the same query used previously and this time select “Run Against Local Database”.
+
+Notice the slight difference from when you ran the query against the national database. We are only shown a list of target tables. The query description can provide additional information, in this case you can see it indicates you should set the target tables to **Area** and **Legend** when running the query locally. Select them now above. Now enter the same information as you used previously and run the query.
+
+How many records were selected for the legend table this time? The Results window that appears will tell you and ask you to confirm if you would like to add these to your selected set. Click yes. Now open your Legend table to view the legend data added to your selected set.
+
+### Submit Screenshot
+
+Submit the screenshot of the data in the legend table and the answer to the questions above and placing them in your exercise submission folder to complete the exercise.
+
+**End of Exercise**
+
+## Exercise 3.2 – Find and Load Related Data
+
+### Find Related Data
+
+This exercise uses the data you queried into your selected set from exercise 3.1.
+
+The find related button can be used to locate data which has a specific relationship to other data which is linked in the database by references to record ids of other data. Select the legend in the legend table and click the Find Related for Selected Row button.
+
+![](3-2-find-related.png)
+
+A window appears, Use the drop-down button to select the target table containing the data you want to find, for this exercise, select **Area** and click ok. The choices in the drop-down menu will differ based on the table you are viewing and will only show choices for data having an existing relationship with the data in the table you are viewing.
+
+You will notice the NASIS client will switch to the table containing the data and highlight the row of the related data. If the related table is not already open it will open it. It will also provide additional information in the status messages window and will show the original table, target table and provide the row id of the original row and related row. You can click these links in the status window to return to either the original or the related row. Take a screenshot of the Area table and save to send to your mentor.
+
+![](3-2-find-status.png)
+
+### Load Related Data
+
+When you have data loaded into your selected set, you can also load related data from the local database into the selected set using the load related for selected rows button:
+
+![](3-2-load-related.png)
+
+Return to the Legend table and select the legend by clicking the row to highlight it. Click on the load related button and click on the down arrow to select NASIS User.
+
+![](3-2-load-related-win.png)
+
+If the data is in the local database, you will see a window confirming your results:
+
+![](3-2-load-related-result.png)
+
+Click yes to add the results to your selected set. Notice you will need to open the NASIS User table to see the results of the load related action. Alternatively, you can also use the find related action. Take a screenshot of the NASIS User table and save to send to you mentor.
+
+If no related records were found, you will see a different results window similar to this one:
+
+![](3-2-load-related-no-result.png)
+
+Remember this tool only works if the data exists and is in your local database. If it doesn’t return results do not assume there isn’t any related data – there might be related data, it just isn’t in your local database to load into your selected set.
+
+### Download Related
+
+The download related button can be used in instances where you see “NOT IN LOCAL DATABASE” in the columns where data should be loaded. This situation could occur if you queried data from the national database, but did not choose to download all the related tables at the time of the query. To demonstrate this tool, we will need to remove some data from our local database. Click the “Setup Local Database” button to open the local database view:
+
+![](3-2-setup-local.png)
+
+Click the mapunit tab and select Rec ID = 2761935, then click the exclude button, and then accept button.
+
+Now return to the legend table view. Expand the legend table to see the child tables by clicking the plus icon on the left. Notice there is a row that has “NOT IN LOCAL DATABASE” showing in some of the columns:
+
+![](3-2-not-in-local.png)
+
+This corresponds to the row we just removed from our local database. To add it back to your local database select the row and use the download related button:
+
+![](3-2-download-related.png)
+
+A window will appear where you can confirm the request. Take a screenshot of this window and save to send to you mentor. You can also choose to add the data to your selected set by checking the box. Even though you might see the download related button is active on the toolbar, not all data is downloadable because it is not required unless you see “NOT IN LOCAL DATABASE” in the rows/columns where data should be. If the download related button does not work, then you will have to run a new query against the national database to get the data.
+
+### Submit Screenshots
+
+Submit your screenshots by placing them in your exercise submission folder to complete the exercise.
+
+**End of Exercise**

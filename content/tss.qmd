@@ -1,0 +1,37 @@
+---
+title: "NASIS Basic Training"
+subtitle: "Technical Soil Services Management"
+author:
+  - name: "Soil and Plant Science Division Staff"
+    affiliation:
+    - USDA-NRCS
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 3
+date: today
+title-block-banner: "#19567B"
+---
+
+## Exercise 11 - Technical Soil Services Management
+
+### Add Entries to Excel Template
+
+Use the template excel spreadsheet in Microsoft Teams to fill out these hypothetical Technical Soil Services (TSS) activities as you would in NASIS.
+
+1.	You are requested to assist the area office with wetland delineations while the RSS is out for medical leave for the month of August.  During the 4 weeks there are 2 teleconferences with the SSS and ARSS on Monday 8/1/22 and 8/15/22 from 8am-10am to discuss workload and specific requests.  There were 2-30 minute phone calls discussing a wetland delineation requested by the SSS, completed on 8/12/22 in Hubbard County MN(1 hour drive away) that took 3 hours to complete in the field along with proper documentation in the office.  There was another wetland delineation completed in Hubbard County MN requested by the SSS on 8/24/22 that was 1.5 hour drive to get to and took 4 hours to complete for field and office time. 
+
+2.	You are asked to assist with an environmental education week at a local grade school about soils to instruct 30 children.  This will be both indoor classroom activity along with a set of outdoor activities later in the week.  There were 2 teleconferences with the teacher in April(4th and 15th) to discuss logistics and timetables(2 hours for each meeting).  You spent approximately 15 hours over 5 days developing your lecture and activities from April 4th till the 29th .  The lecture occurred Monday May 2nd at 9:00-10:00am, you spent 6 hours traveling to the school, lecturing and assisting the teacher with Q&A.  On May 5th you returned to the school and participated in outdoor activities with the children and 6 escorts(assisting parents) which took the entire 8 hour day with travel, discussion, setup and breakdown of equipment. 
+
+### NASIS User Guide
+
+Chapter 22: Technical Soil Services Reporting
+
+<https://www.nrcs.usda.gov/sites/default/files/2022-08/Chapter_22__Technical_Soil_Services_Management.pdf> 
+
+### Submit File
+
+Add the .xlsx file to your submission folder to complete the exercise.
+
+**End of Exercise**

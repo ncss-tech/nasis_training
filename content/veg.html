@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Soil and Plant Science Division Staff">
-<meta name="dcterms.date" content="2024-05-08">
+<meta name="dcterms.date" content="2024-05-09">
 
 <title>NASIS Basic Training</title>
 <style>
@@ -25,16 +25,16 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="import_files/libs/clipboard/clipboard.min.js"></script>
-<script src="import_files/libs/quarto-html/quarto.js"></script>
-<script src="import_files/libs/quarto-html/popper.min.js"></script>
-<script src="import_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="import_files/libs/quarto-html/anchor.min.js"></script>
-<link href="import_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="import_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="import_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="import_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="import_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="veg_files/libs/clipboard/clipboard.min.js"></script>
+<script src="veg_files/libs/quarto-html/quarto.js"></script>
+<script src="veg_files/libs/quarto-html/popper.min.js"></script>
+<script src="veg_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="veg_files/libs/quarto-html/anchor.min.js"></script>
+<link href="veg_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="veg_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="veg_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="veg_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="veg_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <style>
 
       .quarto-title-block .quarto-title-banner {
@@ -51,7 +51,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">NASIS Basic Training</h1>
-            <p class="subtitle lead">Importing Data</p>
+            <p class="subtitle lead">Ecological and Vegetation Data</p>
                       </div>
   </div>
     
@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 8, 2024</p>
+        <p class="date">May 9, 2024</p>
       </div>
     </div>
     
@@ -89,12 +89,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#exercise-6-importing-data" id="toc-exercise-6-importing-data" class="nav-link active" data-scroll-target="#exercise-6-importing-data">Exercise 6 – Importing Data</a>
+  <li><a href="#exercise-12.1---add-ecological-site-data" id="toc-exercise-12.1---add-ecological-site-data" class="nav-link active" data-scroll-target="#exercise-12.1---add-ecological-site-data">Exercise 12.1 - Add Ecological Site Data</a>
   <ul class="collapse">
-  <li><a href="#download-gpx-file" id="toc-download-gpx-file" class="nav-link" data-scroll-target="#download-gpx-file">Download GPX File</a></li>
-  <li><a href="#import-gps-site-data" id="toc-import-gps-site-data" class="nav-link" data-scroll-target="#import-gps-site-data">Import GPS Site Data</a></li>
-  <li><a href="#import-the-gps-site-data-again" id="toc-import-the-gps-site-data-again" class="nav-link" data-scroll-target="#import-the-gps-site-data-again">Import the GPS Site Data Again</a></li>
-  <li><a href="#screenshot" id="toc-screenshot" class="nav-link" data-scroll-target="#screenshot">Screenshot</a></li>
+  <li><a href="#add-data-to-project" id="toc-add-data-to-project" class="nav-link" data-scroll-target="#add-data-to-project">Add Data to Project</a></li>
+  <li><a href="#add-data-to-site-observation" id="toc-add-data-to-site-observation" class="nav-link" data-scroll-target="#add-data-to-site-observation">Add Data to Site Observation</a></li>
+  <li><a href="#add-associated-user-project-id" id="toc-add-associated-user-project-id" class="nav-link" data-scroll-target="#add-associated-user-project-id">Add Associated User Project ID</a></li>
+  <li><a href="#upload-changes" id="toc-upload-changes" class="nav-link" data-scroll-target="#upload-changes">Upload Changes</a></li>
+  </ul></li>
+  <li><a href="#exercise-12.2---vegetation-plot-data" id="toc-exercise-12.2---vegetation-plot-data" class="nav-link" data-scroll-target="#exercise-12.2---vegetation-plot-data">Exercise 12.2 - Vegetation Plot Data</a>
+  <ul class="collapse">
+  <li><a href="#query-and-load-data" id="toc-query-and-load-data" class="nav-link" data-scroll-target="#query-and-load-data">Query and Load Data</a></li>
+  <li><a href="#add-data-to-vegetation-plot" id="toc-add-data-to-vegetation-plot" class="nav-link" data-scroll-target="#add-data-to-vegetation-plot">Add Data to Vegetation Plot</a></li>
+  <li><a href="#upload-and-submit-answers" id="toc-upload-and-submit-answers" class="nav-link" data-scroll-target="#upload-and-submit-answers">Upload and Submit Answers</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -106,33 +112,45 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="exercise-6-importing-data" class="level2">
-<h2 class="anchored" data-anchor-id="exercise-6-importing-data">Exercise 6 – Importing Data</h2>
-<section id="download-gpx-file" class="level3">
-<h3 class="anchored" data-anchor-id="download-gpx-file">Download GPX File</h3>
-<p>In the NASIS Basic Microsoft Teams folder along with this exercise, locate and download the “data-import.gpx” file.</p>
+<section id="exercise-12.1---add-ecological-site-data" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-12.1---add-ecological-site-data">Exercise 12.1 - Add Ecological Site Data</h2>
+<section id="add-data-to-project" class="level3">
+<h3 class="anchored" data-anchor-id="add-data-to-project">Add Data to Project</h3>
+<p>Add a draft and a provisional Ecological Site to the Project Ecological Site Table of your project from Exercise 10.</p>
 </section>
-<section id="import-gps-site-data" class="level3">
-<h3 class="anchored" data-anchor-id="import-gps-site-data">Import GPS Site Data</h3>
-<p>In NASIS, Click the NASIS menu and select “Import GPS Site Data”:</p>
-<p><img src="6-import.png" title="NASIS Client NASIS menu with the Import GPS Site Data menu option highlighted" class="img-fluid" alt="NASIS Client NASIS menu with the Import GPS Site Data menu option highlighted"></p>
-<p>Next browse to the file you downloaded from Teams and click open. Files downloaded from Teams are typically stored in your downloads folder on your computer</p>
-<p><img src="6-file-import.png" title="NASIS Client Select GPX File(s) to import window with data-import.gpx highlighted" class="img-fluid" alt="NASIS Client Select GPX File(s) to import window with data-import.gpx highlighted"></p>
-<p>The next window shows a preview of the data which will be uploaded:</p>
-<p><img src="6-import-preview.png" title="NASIS Client GPS Import Preview window with User Site ID S2012IA027001 highlighted" class="img-fluid" alt="NASIS Client GPS Import Preview window with User Site ID S2012IA027001 highlighted"></p>
-<p>Here you can check for completeness and correctness of the data, and you have the ability to alter the actions column, to either add the row of data or skip it. For User Site ID “S2012IA009001”, change the action to “skip” Notice you can also sort and filter the data to assist in reviewing. Click the OK button to continue.</p>
-<p>Notice the status messages window has provided information on the import process confirming it has completed:</p>
-<p><img src="6-import-status.png" title="NASIS Client Status Messages window containing a list of sites added during the GPS data import" class="img-fluid" alt="NASIS Client Status Messages window containing a list of sites added during the GPS data import"></p>
-<p>Open the “Site” table to view the newly added data.</p>
+<section id="add-data-to-site-observation" class="level3">
+<h3 class="anchored" data-anchor-id="add-data-to-site-observation">Add Data to Site Observation</h3>
+<p>Add these same Ecological Sites to the Site Ecological Site History child table of the Site Observation table of the site you created in Exercise 4.3.</p>
 </section>
-<section id="import-the-gps-site-data-again" class="level3">
-<h3 class="anchored" data-anchor-id="import-the-gps-site-data-again">Import the GPS Site Data Again</h3>
-<p>Follow the same procedures as before to upload the same .gpx file again. This time when you get to the preview window it should look different. Since you’ve already loaded this data into your selected set you now see the site record ids for the existing sites you previously added – except for the one site that was skipped. Also notice a third option is now available in addition to add and skip. You can also choose to update data if an existing site record id was found. In this case, the updated data would be no different than what is already imported, but you may find it useful if you’ve already entered some data prior to importing the .gpx file. Cancel the preview window and return to the site table. Take a screenshot of the new data in the table and save to submit. For this exercise, you should discard all changes, but when using it for your own data, remember even though you have imported the data, to complete the process the data must be uploaded to the national database and you will also need to check the data back in.</p>
+<section id="add-associated-user-project-id" class="level3">
+<h3 class="anchored" data-anchor-id="add-associated-user-project-id">Add Associated User Project ID</h3>
+<p>In the Site Observation table, add the project you worked on in Exercise 4.1 and Exercise 10.</p>
 </section>
-<section id="screenshot" class="level3">
-<h3 class="anchored" data-anchor-id="screenshot">Screenshot</h3>
-<p>Submit your screenshot by placing it in your exercise submission folder to complete the exercise.</p>
-<p><strong>End of Exercise</strong></p>
+<section id="upload-changes" class="level3">
+<h3 class="anchored" data-anchor-id="upload-changes">Upload Changes</h3>
+<p>Upload the changes you made to your project and your mentor will review it.</p>
+</section>
+</section>
+<section id="exercise-12.2---vegetation-plot-data" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-12.2---vegetation-plot-data">Exercise 12.2 - Vegetation Plot Data</h2>
+<section id="query-and-load-data" class="level3">
+<h3 class="anchored" data-anchor-id="query-and-load-data">Query and Load Data</h3>
+<p>Query and load into your selected set data from Vegetation plot table having the “Basic NASIS Training Group” NASIS Group Name. Answer these questions:</p>
+<ol type="1">
+<li>How many vegetation plots are there that match the criteria?</li>
+<li>Of these vegetation plots, which plant has the highest Estimated Annual Production?</li>
+<li>What unit of measure is assigned to this stored value?</li>
+<li>Are there any pedons also associated with these sites? If so, how many?</li>
+</ol>
+</section>
+<section id="add-data-to-vegetation-plot" class="level3">
+<h3 class="anchored" data-anchor-id="add-data-to-vegetation-plot">Add Data to Vegetation Plot</h3>
+<p>Add a new row to the Vegetation Plot table. Select your site and site observation you created in Exercise 4.3 to populate the Site/Site Obs column, then enter a Vegetation Plot ID that matches your User Site ID.</p>
+<p>In the plot plant inventory table, choose several plants to add. Remember you can use typing, sorting and filtering to refine the choice list, making the selection process easier.</p>
+</section>
+<section id="upload-and-submit-answers" class="level3">
+<h3 class="anchored" data-anchor-id="upload-and-submit-answers">Upload and Submit Answers</h3>
+<p>Upload all changes and check in data. Submit the answers to the questions above by adding them to a document and placing it in your exercise submission folder. Your mentor will review your NASIS entry.</p>
 </section>
 </section>
 

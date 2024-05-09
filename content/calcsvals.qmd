@@ -28,7 +28,7 @@ Click this to open a series selection window that will assist in calculating man
 
 This series selection window guides you through the process of selecting and calculating the series classification. It will perform a search of the existing series and populate the correct information automatically.
 
-![](8-series.png)
+![](8-series.png "NASIS Client Series Selection window"){fig-alt="NASIS Client Series Selection window"}
 
 Begin by choosing series as the Taxon Kind then type in “Tama” into the taxon name, then click the find by series name. Below you will see the search results. If there is more than one match you can browse to the next or previous results by clicking the arrow buttons.
 
@@ -36,23 +36,23 @@ Click the green arrow button to copy the Tama classification information to the 
 
 Take a screenshot to submit, then click the save button on the series selection window to return to the table view. You will now see the data is populated and the taxonomic class is showing the “C” icon on the right side in an S (meaning status) column, meaning it has been calculated.
 
-![](8-series-status.png)
+![](8-series-status.png "NASIS Client Pedon Taxonomic History table selected showing the Taxonomic Class of a row with Tama Taxon Name"){fig-alt="NASIS Client Pedon Taxonomic History table selected showing the Taxonomic Class of a row with Tama Taxon Name"}
 
 Right click on the “S” column and select view information. What does the column description tell you about the column? What are the other possible statuses? You will see this “S” column paired with many other columns in the database
 
 ### Calculate Current Taxon Name
 
-Return to the pedon table and locate the “current taxon name” column. This column is empty but notice it has an “S” column.
+Return to the pedon table and locate the “Current Taxon Name” column. This column is empty but notice it has an “S” column.
 
-![](8-current-class.png)
+![](8-current-class.png "NASIS Client Pedon table showing an empty Current Taxon Name"){fig-alt="NASIS Client Pedon table showing an empty Current Taxon Name"}
 
 Open the calculations/validations tab in the table of contents to the left and expand the calculations folder. The calculations are organized by the table they operate on. Find the Pedon folder since the calculation we want will be for the current taxon name in the pedon table and expand it. Right click on the “Pedon Current Taxonomic Classification” and click “run for all rows in selected set”.
 
-![](8-calc.png)
+![](8-calc.png "NASIS Client Calculations/Validations tab opened in the table of contents with the Pedon Current Taxonomic Classification calculation highlighted"){fig-alt="NASIS Client Calculations/Validations tab opened in the table of contents with the Pedon Current Taxonomic Classification calculation highlighted"}
 
 A window will appear providing additional options for controlling how the calculation works:
 
-![](8-calc-run.png)
+![](8-calc-run.png "NASIS Client Running Calculation window"){fig-alt="NASIS Client Running Calculation window"}
 
 In this case we have neither manual nor prior values so these options will not change the outcome of our calculation so leave both unchecked. There may be instances where enabling these options can be useful for example if you had prior values or manual values that you wanted to replace, the calculation would not by default replace those values, instead you would need to check the boxes to overwrite them. Now upload your changes and check your data back in. You will be using this pedon in the next exercise.
 
@@ -72,11 +72,11 @@ Use your pedon from the previous exercise. If you don’t have it in your select
 
 Validations are organized in the same way as calculations. Find the Validations folder in the Calculations/Validations section of the table of contents and expand it to view the sub-folders. Find the pedon folder and expand it.
 
-![](8-2-val.png)
+![](8-2-val.png "NASIS Client Calculations/Validatoins tab open in the table of contents with the Pedon folder expanded showing validations"){fig-alt="NASIS Client Calculations/Validatoins tab open in the table of contents with the Pedon folder expanded showing validations"}
 
 Right click on the “DSP Intermediate Tier - Earthworms” Validation and select “Run for all rows in selected set. Notice the validation results window has updated with a message
 
-![](8-2-val-results.png)
+![](8-2-val-results.png "NASIS Client Validations Results window containing an error message indicating Row ID 1403927 is missing the earthworms Field Measured Property"){fig-alt="NASIS Client Validations Results window containing an error message indicating Row ID 1403927 is missing the earthworms Field Measured Property"}
 
 The message indicates the issue, and you can use the hyperlink to highlight the offending row. Find the Field Measured Property Name column in the Pedon Field Measured Property table and correct the error by populating it with "earthworms". Now run the same validation again. Notice a new set of errors has appeared. Some validations check for only one data element, others check multiple data elements. This one looks at multiple. Continue making the required corrections and then take a screenshot of the status messages window showing zero errors found and save it to submit.
 
@@ -84,27 +84,27 @@ The message indicates the issue, and you can use the hyperlink to highlight the 
 
 You can also run multiple validations at one time by holding down the ctrl key and clicking each validation you want to run, or by holding the shift key to select all validations between the first and last validation selected. Select the first validation in the pedon folder hold shift and select the last validation in the folder. Now right click and select “run for all rows in selected set”
 
-### Screenshots
+### Upload and Screenshots
 
-Take a screenshot of the validations results window after running the validations above. Submit this along with your other screenshot by adding it to your exercise submission folder.
+Upload all your changes and check in the data. Also take a screenshot of the validations results window after running the validations above. Submit this along with your other screenshot by adding it to your exercise submission folder.
 
 **End of Exercise**
 
-## Exercise 8.3 - Interpretations 
+## Exercise 8.3 - Interpretations
 
-### Query Data 
+### Query Data
 
-In the NSSC Pangaea folder, run the “Area/Legend/Mapunit/DMU by areasymbol (official data)” query to get the data into your selected set. Recall the steps you need to take to do this. You can refer to the previous exercises if needed. Use areasymbol “IA001”. 
+In the NSSC Pangaea folder, run the “Area/Legend/Mapunit/DMU by areasymbol (official data)” query to get the data into your selected set. Recall the steps you need to take to do this. You can refer to the previous exercises if needed. Use areasymbol “IA001”.
 
-### Choose a Component 
+### Choose a Component
 
-Interpretations run on components, so you will need to choose a component from the component table. Highlight the row of your choice. 
+Interpretations run on components, so you will need to choose a component from the component table. Highlight the row of your choice.
 
 ### Run an interpretation
 
 There are 3 entirely separate courses offered by SPSD that cover the in-depth details of interpretations, so for this training we won’t dive too deep into everything there is to know about them. We will show you how to run them and view the results. Click the interpretations tab in the table of contents. Notice there are checkboxes for view ready to use only, view primary rules only and view checked out only. Make sure the view ready to use only and view primary rules only are checked.
 
-![](8-3-interps.png)
+![](8-3-interps.png "NASIS Client Interpretations tab selected in the table of contents showing View Primary Rules Only option is checked"){fig-alt="NASIS Client Interpretations tab selected in the table of contents showing View Primary Rules Only option is checked"}
 
 There are 3 folders in the interpretations tab: rules, evaluations, and properties. The rules folder contains the interpretations you may already be familiar with. These are the basis for the interpretations you see on Web Soil Survey. The evaluations and properties folders are different parts that are used to generate data that the rule uses to make the interpretation.
 

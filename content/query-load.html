@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Soil and Plant Science Division Staff">
-<meta name="dcterms.date" content="2024-05-07">
+<meta name="dcterms.date" content="2024-05-08">
 
 <title>NASIS Basic Training</title>
 <style>
@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 7, 2024</p>
+        <p class="date">May 8, 2024</p>
       </div>
     </div>
     
@@ -149,33 +149,33 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="find-related-data">Find Related Data</h3>
 <p>This exercise uses the data you queried into your selected set from exercise 3.1.</p>
 <p>The find related button can be used to locate data which has a specific relationship to other data which is linked in the database by references to record ids of other data. Select the legend in the legend table and click the Find Related for Selected Row button.</p>
-<p><img src="3-2-find-related.png" class="img-fluid"></p>
+<p><img src="3-2-find-related.png" title="NASIS Client Table toolbar with the Find Related for Selected Row button highlighted" class="img-fluid" alt="NASIS Client Table toolbar with the Find Related for Selected Row button highlighted"></p>
 <p>A window appears, Use the drop-down button to select the target table containing the data you want to find, for this exercise, select <strong>Area</strong> and click ok. The choices in the drop-down menu will differ based on the table you are viewing and will only show choices for data having an existing relationship with the data in the table you are viewing.</p>
 <p>You will notice the NASIS client will switch to the table containing the data and highlight the row of the related data. If the related table is not already open it will open it. It will also provide additional information in the status messages window and will show the original table, target table and provide the row id of the original row and related row. You can click these links in the status window to return to either the original or the related row. Take a screenshot of the Area table and save to send to your mentor.</p>
-<p><img src="3-2-find-status.png" class="img-fluid"></p>
+<p><img src="3-2-find-status.png" title="NASIS Client Status Messages window" class="img-fluid" alt="NASIS Client Status Messages window"></p>
 </section>
 <section id="load-related-data" class="level3">
 <h3 class="anchored" data-anchor-id="load-related-data">Load Related Data</h3>
 <p>When you have data loaded into your selected set, you can also load related data from the local database into the selected set using the load related for selected rows button:</p>
-<p><img src="3-2-load-related.png" class="img-fluid"></p>
+<p><img src="3-2-load-related.png" title="NASIS Client Table toolbar with the Load Related Selected Rows button highlighted" class="img-fluid" alt="NASIS Client Table toolbar with the Load Related Selected Rows button highlighted"></p>
 <p>Return to the Legend table and select the legend by clicking the row to highlight it. Click on the load related button and click on the down arrow to select NASIS User.</p>
-<p><img src="3-2-load-related-win.png" class="img-fluid"></p>
+<p><img src="3-2-load-related-win.png" title="NASIS Client Load Related target table selection window" class="img-fluid" alt="NASIS Client Load Related target table selection window"></p>
 <p>If the data is in the local database, you will see a window confirming your results:</p>
-<p><img src="3-2-load-related-result.png" class="img-fluid"></p>
+<p><img src="3-2-load-related-result.png" title="NASIS Client Load Related Query Results confirmation window" class="img-fluid" alt="NASIS Client Load Related Query Results confirmation window"></p>
 <p>Click yes to add the results to your selected set. Notice you will need to open the NASIS User table to see the results of the load related action. Alternatively, you can also use the find related action. Take a screenshot of the NASIS User table and save to send to you mentor.</p>
 <p>If no related records were found, you will see a different results window similar to this one:</p>
-<p><img src="3-2-load-related-no-result.png" class="img-fluid"></p>
+<p><img src="3-2-load-related-no-result.png" title="NASIS Client Query Results window" class="img-fluid" alt="NASIS Client Query Results window"></p>
 <p>Remember this tool only works if the data exists and is in your local database. If it doesn’t return results do not assume there isn’t any related data – there might be related data, it just isn’t in your local database to load into your selected set.</p>
 </section>
 <section id="download-related" class="level3">
 <h3 class="anchored" data-anchor-id="download-related">Download Related</h3>
 <p>The download related button can be used in instances where you see “NOT IN LOCAL DATABASE” in the columns where data should be loaded. This situation could occur if you queried data from the national database, but did not choose to download all the related tables at the time of the query. To demonstrate this tool, we will need to remove some data from our local database. Click the “Setup Local Database” button to open the local database view:</p>
-<p><img src="3-2-setup-local.png" class="img-fluid"></p>
+<p><img src="3-2-setup-local.png" title="NASIS Client NASIS toolbar with Setup Local Database button highlighted" class="img-fluid" alt="NASIS Client NASIS toolbar with Setup Local Database button highlighted"></p>
 <p>Click the mapunit tab and select Rec ID = 2761935, then click the exclude button, and then accept button.</p>
 <p>Now return to the legend table view. Expand the legend table to see the child tables by clicking the plus icon on the left. Notice there is a row that has “NOT IN LOCAL DATABASE” showing in some of the columns:</p>
-<p><img src="3-2-not-in-local.png" class="img-fluid"></p>
+<p><img src="3-2-not-in-local.png" title="NASIS Client Legend Table expanded to show the Legend Mapunit child table containing a row with the mapunit symbol Az highlighted" class="img-fluid" alt="NASIS Client Legend Table expanded to show the Legend Mapunit child table containing a row with the mapunit symbol Az highlighted"></p>
 <p>This corresponds to the row we just removed from our local database. To add it back to your local database select the row and use the download related button:</p>
-<p><img src="3-2-download-related.png" class="img-fluid"></p>
+<p><img src="3-2-download-related.png" title="NASIS Client Table toolbar with the Download Related for Selected Rows button highlighted" class="img-fluid" alt="NASIS Client Table toolbar with the Download Related for Selected Rows button highlighted"></p>
 <p>A window will appear where you can confirm the request. Take a screenshot of this window and save to send to you mentor. You can also choose to add the data to your selected set by checking the box. Even though you might see the download related button is active on the toolbar, not all data is downloadable because it is not required unless you see “NOT IN LOCAL DATABASE” in the rows/columns where data should be. If the download related button does not work, then you will have to run a new query against the national database to get the data.</p>
 </section>
 <section id="submit-screenshots" class="level3">

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Soil and Plant Science Division Staff">
-<meta name="dcterms.date" content="2024-05-07">
+<meta name="dcterms.date" content="2024-05-09">
 
 <title>NASIS Basic Training</title>
 <style>
@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 7, 2024</p>
+        <p class="date">May 9, 2024</p>
       </div>
     </div>
     
@@ -101,12 +101,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#load-pedon" id="toc-load-pedon" class="nav-link" data-scroll-target="#load-pedon">Load Pedon</a></li>
   <li><a href="#validate-data-in-the-pedon-table" id="toc-validate-data-in-the-pedon-table" class="nav-link" data-scroll-target="#validate-data-in-the-pedon-table">Validate Data in the Pedon Table</a></li>
   <li><a href="#run-multiple-validations" id="toc-run-multiple-validations" class="nav-link" data-scroll-target="#run-multiple-validations">Run Multiple Validations</a></li>
-  <li><a href="#screenshots-1" id="toc-screenshots-1" class="nav-link" data-scroll-target="#screenshots-1">Screenshots</a></li>
+  <li><a href="#upload-and-screenshots" id="toc-upload-and-screenshots" class="nav-link" data-scroll-target="#upload-and-screenshots">Upload and Screenshots</a></li>
   </ul></li>
-  <li><a href="#exercise-8.3---interpretations" id="toc-exercise-8.3---interpretations" class="nav-link" data-scroll-target="#exercise-8.3---interpretations">Exercise 8.3 - Interpretations&nbsp;</a>
+  <li><a href="#exercise-8.3---interpretations" id="toc-exercise-8.3---interpretations" class="nav-link" data-scroll-target="#exercise-8.3---interpretations">Exercise 8.3 - Interpretations</a>
   <ul class="collapse">
-  <li><a href="#query-data" id="toc-query-data" class="nav-link" data-scroll-target="#query-data">Query Data&nbsp;</a></li>
-  <li><a href="#choose-a-component" id="toc-choose-a-component" class="nav-link" data-scroll-target="#choose-a-component">Choose a Component&nbsp;</a></li>
+  <li><a href="#query-data" id="toc-query-data" class="nav-link" data-scroll-target="#query-data">Query Data</a></li>
+  <li><a href="#choose-a-component" id="toc-choose-a-component" class="nav-link" data-scroll-target="#choose-a-component">Choose a Component</a></li>
   <li><a href="#run-an-interpretation" id="toc-run-an-interpretation" class="nav-link" data-scroll-target="#run-an-interpretation">Run an interpretation</a></li>
   <li><a href="#send-report" id="toc-send-report" class="nav-link" data-scroll-target="#send-report">Send Report</a></li>
   </ul></li>
@@ -131,21 +131,21 @@ ul.task-list li input[type="checkbox"] {
 <section id="select-and-calculate-series-classification" class="level3">
 <h3 class="anchored" data-anchor-id="select-and-calculate-series-classification">Select and Calculate Series Classification</h3>
 <p>This series selection window guides you through the process of selecting and calculating the series classification. It will perform a search of the existing series and populate the correct information automatically.</p>
-<p><img src="8-series.png" class="img-fluid"></p>
+<p><img src="8-series.png" title="NASIS Client Series Selection window" class="img-fluid" alt="NASIS Client Series Selection window"></p>
 <p>Begin by choosing series as the Taxon Kind then type in “Tama” into the taxon name, then click the find by series name. Below you will see the search results. If there is more than one match you can browse to the next or previous results by clicking the arrow buttons.</p>
 <p>Click the green arrow button to copy the Tama classification information to the pedon taxonomic classes. There are also cases where you may have the pedon classified, but may not know a series that fits. In these cases, you can populate the taxonomy first and search for matching series by clicking the find series by classification button.</p>
 <p>Take a screenshot to submit, then click the save button on the series selection window to return to the table view. You will now see the data is populated and the taxonomic class is showing the “C” icon on the right side in an S (meaning status) column, meaning it has been calculated.</p>
-<p><img src="8-series-status.png" class="img-fluid"></p>
+<p><img src="8-series-status.png" title="NASIS Client Pedon Taxonomic History table selected showing the Taxonomic Class of a row with Tama Taxon Name" class="img-fluid" alt="NASIS Client Pedon Taxonomic History table selected showing the Taxonomic Class of a row with Tama Taxon Name"></p>
 <p>Right click on the “S” column and select view information. What does the column description tell you about the column? What are the other possible statuses? You will see this “S” column paired with many other columns in the database</p>
 </section>
 <section id="calculate-current-taxon-name" class="level3">
 <h3 class="anchored" data-anchor-id="calculate-current-taxon-name">Calculate Current Taxon Name</h3>
-<p>Return to the pedon table and locate the “current taxon name” column. This column is empty but notice it has an “S” column.</p>
-<p><img src="8-current-class.png" class="img-fluid"></p>
+<p>Return to the pedon table and locate the “Current Taxon Name” column. This column is empty but notice it has an “S” column.</p>
+<p><img src="8-current-class.png" title="NASIS Client Pedon table showing an empty Current Taxon Name" class="img-fluid" alt="NASIS Client Pedon table showing an empty Current Taxon Name"></p>
 <p>Open the calculations/validations tab in the table of contents to the left and expand the calculations folder. The calculations are organized by the table they operate on. Find the Pedon folder since the calculation we want will be for the current taxon name in the pedon table and expand it. Right click on the “Pedon Current Taxonomic Classification” and click “run for all rows in selected set”.</p>
-<p><img src="8-calc.png" class="img-fluid"></p>
+<p><img src="8-calc.png" title="NASIS Client Calculations/Validations tab opened in the table of contents with the Pedon Current Taxonomic Classification calculation highlighted" class="img-fluid" alt="NASIS Client Calculations/Validations tab opened in the table of contents with the Pedon Current Taxonomic Classification calculation highlighted"></p>
 <p>A window will appear providing additional options for controlling how the calculation works:</p>
-<p><img src="8-calc-run.png" class="img-fluid"></p>
+<p><img src="8-calc-run.png" title="NASIS Client Running Calculation window" class="img-fluid" alt="NASIS Client Running Calculation window"></p>
 <p>In this case we have neither manual nor prior values so these options will not change the outcome of our calculation so leave both unchecked. There may be instances where enabling these options can be useful for example if you had prior values or manual values that you wanted to replace, the calculation would not by default replace those values, instead you would need to check the boxes to overwrite them. Now upload your changes and check your data back in. You will be using this pedon in the next exercise.</p>
 </section>
 <section id="screenshots" class="level3">
@@ -163,35 +163,35 @@ ul.task-list li input[type="checkbox"] {
 <section id="validate-data-in-the-pedon-table" class="level3">
 <h3 class="anchored" data-anchor-id="validate-data-in-the-pedon-table">Validate Data in the Pedon Table</h3>
 <p>Validations are organized in the same way as calculations. Find the Validations folder in the Calculations/Validations section of the table of contents and expand it to view the sub-folders. Find the pedon folder and expand it.</p>
-<p><img src="8-2-val.png" class="img-fluid"></p>
+<p><img src="8-2-val.png" title="NASIS Client Calculations/Validatoins tab open in the table of contents with the Pedon folder expanded showing validations" class="img-fluid" alt="NASIS Client Calculations/Validatoins tab open in the table of contents with the Pedon folder expanded showing validations"></p>
 <p>Right click on the “DSP Intermediate Tier - Earthworms” Validation and select “Run for all rows in selected set. Notice the validation results window has updated with a message</p>
-<p><img src="8-2-val-results.png" class="img-fluid"></p>
+<p><img src="8-2-val-results.png" title="NASIS Client Validations Results window containing an error message indicating Row ID 1403927 is missing the earthworms Field Measured Property" class="img-fluid" alt="NASIS Client Validations Results window containing an error message indicating Row ID 1403927 is missing the earthworms Field Measured Property"></p>
 <p>The message indicates the issue, and you can use the hyperlink to highlight the offending row. Find the Field Measured Property Name column in the Pedon Field Measured Property table and correct the error by populating it with “earthworms”. Now run the same validation again. Notice a new set of errors has appeared. Some validations check for only one data element, others check multiple data elements. This one looks at multiple. Continue making the required corrections and then take a screenshot of the status messages window showing zero errors found and save it to submit.</p>
 </section>
 <section id="run-multiple-validations" class="level3">
 <h3 class="anchored" data-anchor-id="run-multiple-validations">Run Multiple Validations</h3>
 <p>You can also run multiple validations at one time by holding down the ctrl key and clicking each validation you want to run, or by holding the shift key to select all validations between the first and last validation selected. Select the first validation in the pedon folder hold shift and select the last validation in the folder. Now right click and select “run for all rows in selected set”</p>
 </section>
-<section id="screenshots-1" class="level3">
-<h3 class="anchored" data-anchor-id="screenshots-1">Screenshots</h3>
-<p>Take a screenshot of the validations results window after running the validations above. Submit this along with your other screenshot by adding it to your exercise submission folder.</p>
+<section id="upload-and-screenshots" class="level3">
+<h3 class="anchored" data-anchor-id="upload-and-screenshots">Upload and Screenshots</h3>
+<p>Upload all your changes and check in the data. Also take a screenshot of the validations results window after running the validations above. Submit this along with your other screenshot by adding it to your exercise submission folder.</p>
 <p><strong>End of Exercise</strong></p>
 </section>
 </section>
 <section id="exercise-8.3---interpretations" class="level2">
-<h2 class="anchored" data-anchor-id="exercise-8.3---interpretations">Exercise 8.3 - Interpretations&nbsp;</h2>
+<h2 class="anchored" data-anchor-id="exercise-8.3---interpretations">Exercise 8.3 - Interpretations</h2>
 <section id="query-data" class="level3">
-<h3 class="anchored" data-anchor-id="query-data">Query Data&nbsp;</h3>
-<p>In the NSSC Pangaea folder, run the “Area/Legend/Mapunit/DMU by areasymbol (official data)” query to get the data into your selected set. Recall the steps you need to take to do this. You can refer to the previous exercises if needed. Use areasymbol “IA001”.&nbsp;</p>
+<h3 class="anchored" data-anchor-id="query-data">Query Data</h3>
+<p>In the NSSC Pangaea folder, run the “Area/Legend/Mapunit/DMU by areasymbol (official data)” query to get the data into your selected set. Recall the steps you need to take to do this. You can refer to the previous exercises if needed. Use areasymbol “IA001”.</p>
 </section>
 <section id="choose-a-component" class="level3">
-<h3 class="anchored" data-anchor-id="choose-a-component">Choose a Component&nbsp;</h3>
-<p>Interpretations run on components, so you will need to choose a component from the component table. Highlight the row of your choice.&nbsp;</p>
+<h3 class="anchored" data-anchor-id="choose-a-component">Choose a Component</h3>
+<p>Interpretations run on components, so you will need to choose a component from the component table. Highlight the row of your choice.</p>
 </section>
 <section id="run-an-interpretation" class="level3">
 <h3 class="anchored" data-anchor-id="run-an-interpretation">Run an interpretation</h3>
 <p>There are 3 entirely separate courses offered by SPSD that cover the in-depth details of interpretations, so for this training we won’t dive too deep into everything there is to know about them. We will show you how to run them and view the results. Click the interpretations tab in the table of contents. Notice there are checkboxes for view ready to use only, view primary rules only and view checked out only. Make sure the view ready to use only and view primary rules only are checked.</p>
-<p><img src="8-3-interps.png" class="img-fluid"></p>
+<p><img src="8-3-interps.png" title="NASIS Client Interpretations tab selected in the table of contents showing View Primary Rules Only option is checked" class="img-fluid" alt="NASIS Client Interpretations tab selected in the table of contents showing View Primary Rules Only option is checked"></p>
 <p>There are 3 folders in the interpretations tab: rules, evaluations, and properties. The rules folder contains the interpretations you may already be familiar with. These are the basis for the interpretations you see on Web Soil Survey. The evaluations and properties folders are different parts that are used to generate data that the rule uses to make the interpretation.</p>
 <p>Expand the rules folder and then notice the more familiar folder structure now is broken down by NASIS sites or regions, which contain the rules. Expand the NSSC Pangaea folder and right click “ENG – Dwellings With Basements” then select run against local database.</p>
 <p>A browser window will appear with the results of the interpretation on the component you had highlighted previously. The first row in the table provides the rating for the Interpretation, followed by the individual sub-rules that are parts of it. A rule can have many sub-rules, and each sub-rule multiple evaluations and each evaluation a property. Scroll down farther in the document to see the results of the evaluations and properties. Save this HTML report to send to your mentor.</p>

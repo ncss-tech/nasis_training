@@ -26,7 +26,7 @@ Copy the objects listed that are used to run the report in the report descriptio
 
 ### Read the T factor Comparison Report
 
-In the Explorer pane Select the reports tab if not already selected. In the NSSC Pangaea folder find and open the report “UTIL - Comparison of T Factor, stored vs calculated - html N” and read the report description to determine the data elements needed for the report. 
+In the Explorer pane Select the reports tab if not already selected. In the NSSC Pangaea folder find and open the report “UTIL - Comparison of T Factor, stored vs calculated - html N” and read the report description to determine the data elements needed for the report.
 
 Copy the data elements listed that are used to calculate the T factor report in the report description and paste into a document and submit by placing it in your exercise submission folder.
 
@@ -48,6 +48,6 @@ Run report “**AGR - DRY_NCCPI - MU Aggregated Small Grains Export”**on Soil 
 
 Copy the data from the .txt file and paste into Microsoft Excel, the data will be pasted into a single column. You will need to use text to columns feature in the Data tab. Delimit the data using the “\|” pipe character.
 
-![](excel.png)
+![](excel.png "Microsoft Excel application showing the Data tab menu selected and the Text to Columns button highlighted"){fig-alt="Microsoft Excel application showing the Data tab menu selected and the Text to Columns button highlighted"}
 
 This will separate the data into 6 columns, then sort the "Wtd_Small_grains_nccpi" values from the highest to lowest NCCPI rating for dryland small grains. Submit the .xlsx file by placing it in your exercise submission folder.

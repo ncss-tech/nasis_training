@@ -27,8 +27,7 @@ Using the project you loaded, edit and add appropriate data to the project table
 The main goal of this exercise is to get some practice entering and editing data within the context of a project, and develop an understanding of the importance of keeping data consistent between the columns and tables. Practice the following:
 
 * Write a project description and add it to the project description column
-* Find similar named mapunits to add to the project mapunit table
-* Add an ecological site to the project ecological site table
+* Find similar named mapunits to add to the project mapunit table (find a query that loads map units by map unit name, then use % as a wildcard)
 * Add milestones and dates to the project milestone table
 * Add yourself as a project staff member
 * Add project type, subtype and MLRA SSO Area

@@ -1,0 +1,54 @@
+---
+title: "NASIS Basic Training"
+subtitle: "Ecological and Vegetation Data"
+author:
+  - name: "Soil and Plant Science Division Staff"
+    affiliation:
+    - USDA-NRCS
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 3
+date: today
+title-block-banner: "#19567B"
+---
+
+## Exercise 12.1 - Add Ecological Site Data
+
+### Add Data to Project
+
+Add a draft and a provisional Ecological Site to the Project Ecological Site Table of your project from Exercise 10.
+
+### Add Data to Site Observation
+
+Add these same Ecological Sites to the Site Ecological Site History child table of the Site Observation table of the site you created in Exercise 4.3.
+
+### Add Associated User Project ID
+
+In the Site Observation table, add the project you worked on in Exercise 4.1 and Exercise 10.
+
+### Upload Changes
+
+Upload the changes you made to your project and your mentor will review it.
+
+## Exercise 12.2 - Vegetation Plot Data
+
+### Query and Load Data
+
+Query and load into your selected set data from Vegetation plot table having the "Basic NASIS Training Group" NASIS Group Name. Answer these questions:
+
+1. How many vegetation plots are there that match the criteria?
+2. Of these vegetation plots, which plant has the highest Estimated Annual Production?
+3. What unit of measure is assigned to this stored value?
+4. Are there any pedons also associated with these sites? If so, how many?
+
+### Add Data to Vegetation Plot
+
+Add a new row to the Vegetation Plot table. Select your site and site observation you created in Exercise 4.3 to populate the Site/Site Obs column, then enter a Vegetation Plot ID that matches your User Site ID.
+
+In the plot plant inventory table, choose several plants to add. Remember you can use typing, sorting and filtering to refine the choice list, making the selection process easier.
+
+### Upload and Submit Answers
+
+Upload all changes and check in data. Submit the answers to the questions above by adding them to a document and placing it in your exercise submission folder. Your mentor will review your NASIS entry.

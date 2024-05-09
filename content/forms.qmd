@@ -32,4 +32,4 @@ Scan through until you find an error where depths do not match, or feature is mi
 
 ### Screenshot
 
-Submit a screenshot of the form and place it in your exercise submission folder to complete the exercise. If do not find any errors take a screen shot of the last component 
+Submit a screenshot of the form and place it in your exercise submission folder to complete the exercise. If do not find any errors take a screen shot of the last component

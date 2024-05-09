@@ -27,15 +27,15 @@ NASIS will attempt to do a sign in automatically if you are already using a Linc
 
 The first and most important task after login to the NASIS client is the refresh process. The data you have locally on your computer is only as up to date as the last time you refreshed your data. This means any new or changed data will not be visible to you unless you initiate the refresh process. This can be done by clicking the NASIS menu and selecting Refresh Local Database.
 
-![](2-1-refresh.png)
+![](2-1-refresh.png "NASIS Client NASIS menu with Refresh Local Database menu option highlighted"){fig-alt="NASIS Client NASIS menu with Refresh Local Database menu option highlighted"}
 
 Perform the refresh on your local database and ensure it was successful. You will see a status box appear:
 
-![](2-1-refresh-steps.png)
+![](2-1-refresh-steps.png "NASIS Client Refresh Local Database window"){fig-alt="NASIS Client Refresh Local Database window"}
 
 Depending on when you last refreshed your data and how many edits have been completed or new data added it may take a few minutes. This is yet another reason to refresh your data as the first thing you do, every time you start NASIS. The more often you refresh, the less data you download and the less time it will take. You should also see a status message indicating the refresh has completed.
 
-![](2-1-refresh-status.png)
+![](2-1-refresh-status.png "NASIS Client Status Messages window"){fig-alt="NASIS Client Status Messages window"}
 
 Occasionally, you may find the refresh is taking an unusually long time, which can be caused by a poor connection to NASIS or because of issues with the National NASIS server. You can cancel the refresh as long as the cancel button remains on the screen, but after a certain point, the refresh can no longer be cancelled, and you must allow it to complete.
 
@@ -43,11 +43,11 @@ Occasionally, you may find the refresh is taking an unusually long time, which c
 
 If you completed the NASIS pre-course assignment, this next process should be familiar to you. Click on the NASIS menu and select “Manage User Profile”.
 
-![](nasis-menu-user-screen.png)
+![](nasis-menu-user-screen.png "NASIS Client NASIS menu with the Manage User Profile... option highlighted"){fig-alt="NASIS Client NASIS menu with the Manage User Profile... option highlighted"}
 
 Note your current default NASIS group and remember it. We will be using a special training group for the duration of the training, and you will need to switch back to this previous group once the training is over. Select the “Basic NASIS Training Group” from the list. If you do not see this group reach out to your mentor to confirm you have been added to the group in NASIS. It is possible your name was missed, or another name was added inadvertently.
 
-![](2-1-group.png)
+![](2-1-group.png "NASIS Client NASIS Group choice list with Basic NASIS Training Group highlighted"){fig-alt="NASIS Client NASIS Group choice list with Basic NASIS Training Group highlighted"}
 
 Remember, you must also click the save button before closing the Manage User Profile window to keep any of the changes you have made.
 
@@ -55,7 +55,7 @@ Remember, you must also click the save button before closing the Manage User Pro
 
 The final step to commit the changes you have made to your user profile is to upload all changes to the national database. Do this by selecting the “Upload All Changes to National Database” menu option.
 
-![](2-1-upload.png)
+![](2-1-upload.png "NASIS Client NASIS menu with Upload All Changes to National Database option highlighted"){fig-alt="NASIS Client NASIS menu with Upload All Changes to National Database option highlighted"}
 
 **End of Exercise**
 
@@ -77,9 +77,9 @@ Demonstrate the ability to customize the visibility and size of width of the col
 
 Customize the toolbar by re-arranging the button order and toolbar position. Choose any button and toolbar.
 
-### Capture Screen and Send to Mentor
+### Submit Screenshots
 
-Once you have completed your customizations above, capture a screenshot and write an explanation of the customizations you have completed and send this to your mentor.
+Once you have completed your customizations above, capture a screenshot and write an explanation of the customizations you have completed and submit them by placing them in a new created folder with your name in the exercise submission folder on the Microsoft Teams training site.
 
 ### Restore Customizations
 
@@ -111,9 +111,9 @@ Use the auto-filter row by right clicking on the column name and selecting “Sh
 
 Practice using the auto-filter row on the columns and take a screenshot of the filtered results and save to send to your mentor.
 
-### Send Screenshots to Mentor
+### Submit Screenshots
 
-Send all your screenshots taken during the exercise to your mentor and describe the sorting and filtering you completed.
+Submit all your screenshots taken during the exercise by placing them in your folder in the exercise submission folder on Microsoft Teams and describe the sorting and filtering you completed.
 
 ### Remove Filters and Sorting
 

@@ -20,8 +20,6 @@ title-block-banner: "#19567B"
 
 In the Explorer pane Select the Reports Tab. In the NSSC Pangaea folder find and open the report “**PEDON - Pedon Desc (metric) w/format & unformat notes**” and read the report description to determine the data needed for the report.
 
-In the Explorer pane Select the report Icon - In the NSSC Pangaea folder find and open the report “**PEDON - Pedon Desc (metric) w/format & unformat notes**” and read the report description to determine the data needed for the report.
-
 Copy the objects listed that are used to run the report in the report description and paste into a document and submit by placing it in your exercise submission folder.
 
 ### Read the T factor Comparison Report

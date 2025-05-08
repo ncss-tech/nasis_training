@@ -36,7 +36,7 @@ Upload the changes you made to your project and your mentor will review it.
 
 ### Query and Load Data
 
-Query and load into your selected set data from Vegetation plot table having the "Basic NASIS Training Group" NASIS Group Name. Answer these questions:
+Query and load into your selected set data from Vegetation plot table having the "NASIS Training" NASIS Group Name. Answer these questions:
 
 1. How many vegetation plots are there that match the criteria?
 2. Of these vegetation plots, which plant has the highest Estimated Annual Production?

@@ -18,7 +18,7 @@ title-block-banner: "#19567B"
 
 ### Create a New Pedon
 
-Open the Pedon table and add a new row. Select the Site/Site Obs of the one you created for the Edit Data exercise. It should be named NASIS Training Example 1 lastname, firstname. Next, fill in the User Pedon ID column with the same information as the user site id.
+Open the Pedon table and add a new row. Select the Site/Site Observation of the one you created for the Edit Data exercise. It should be named NASIS Training Example 1 lastname, firstname. Next, fill in the User Pedon ID column with the same information as the user site id.
 
 Next expand the pedon table to show the child tables and select the Pedon Taxonomic History Table. Create a new row in this table and add today’s date to the Classification Date. Next click on the empty cell below the classification name column. Notice the 3 dots button on the right side of the column.
 
@@ -86,7 +86,7 @@ You can also run multiple validations at one time by holding down the ctrl key a
 
 ### Upload and Screenshots
 
-Upload all your changes and check in the data. Also take a screenshot of the validations results window after running the validations above. Submit this along with your other screenshot by adding it to your exercise submission folder.
+Upload all your changes and check in the data. Also take a screenshot of the validation results window after running the validations above. Submit this along with your other screenshot by adding it to your exercise submission folder.
 
 **End of Exercise**
 
@@ -100,15 +100,15 @@ In the NSSC Pangaea folder, run the “Area/Legend/Mapunit/DMU by areasymbol (of
 
 Interpretations run on components, so you will need to choose a component from the component table. Highlight the row of your choice.
 
-### Run an interpretation
+### Run an Interpretation
 
 There are 3 entirely separate courses offered by SPSD that cover the in-depth details of interpretations, so for this training we won’t dive too deep into everything there is to know about them. We will show you how to run them and view the results. Click the interpretations tab in the table of contents. Notice there are checkboxes for view ready to use only, view primary rules only and view checked out only. Make sure the view ready to use only and view primary rules only are checked.
 
 ![](8-3-interps.png "NASIS Client Interpretations tab selected in the table of contents showing View Primary Rules Only option is checked"){fig-alt="NASIS Client Interpretations tab selected in the table of contents showing View Primary Rules Only option is checked"}
 
-There are 3 folders in the interpretations tab: rules, evaluations, and properties. The rules folder contains the interpretations you may already be familiar with. These are the basis for the interpretations you see on Web Soil Survey. The evaluations and properties folders are different parts that are used to generate data that the rule uses to make the interpretation.
+There are 3 folders in the interpretations tab: Rules, Evaluations, and Properties. The Rules folder contains the interpretations you may already be familiar with. These are the basis for the interpretations you see on Web Soil Survey. The evaluations and properties folders are different parts that are used to generate data that the rule uses to make the interpretation.
 
-Expand the rules folder and then notice the more familiar folder structure now is broken down by NASIS sites or regions, which contain the rules. Expand the NSSC Pangaea folder and right click “ENG – Dwellings With Basements” then select run against local database.
+Expand the "Rules" folder and then notice the more familiar folder structure now is broken down by "NASIS Site", which contain the rules. Expand the NSSC Pangaea folder and right click “ENG – Dwellings With Basements” then select run against local database.
 
 A browser window will appear with the results of the interpretation on the component you had highlighted previously. The first row in the table provides the rating for the Interpretation, followed by the individual sub-rules that are parts of it. A rule can have many sub-rules, and each sub-rule multiple evaluations and each evaluation a property. Scroll down farther in the document to see the results of the evaluations and properties. Save this HTML report to send to your mentor.
 

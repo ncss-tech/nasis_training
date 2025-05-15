@@ -18,7 +18,7 @@ title-block-banner: "#19567B"
 
 ### Run a Minimum Data Standard Report
 
-Select a Minimum Data Standard report and run it on any data set (region, MLRA office, state, FIPS code). If there are not any errors, try another report. Keep running reports until you get an error page. Be cognizant of using the % sign. 
+Select a Minimum Data Standard report in the "Data Integrity" report folder and run it on any data set (region, MLRA office, state, FIPS code). If there are not any errors, try another report. Keep running reports until you get an error page. Be cognizant of using the % sign. 
 
 ### Screenshot
 Take a screenshot of the top error page and submit by adding it to your submission folder. 

@@ -85,15 +85,15 @@ The NASIS menu opens to reveal a list of options to select. Choose the "Manage U
 
 ### Review Information
 
-The Manage User Profile window shows information stored in the NASIS database about you as a user. It displays your windows login, name, description, phone, email address, default NASIS site, default NASIS group, and the date the object was last updated. Review the information and make any changes if necessary.
+The Manage User Profile window shows information stored in the NASIS database about you as a user. It displays your windows login, name, description, phone, email address, default NASIS Site, default NASIS Group, and the date the object was last updated. Review the information and make any changes if necessary.
 
 ![](user-screen.png "NASIS Client Manage User Profile window"){fig-alt="NASIS Client Manage User Profile window"}
 
 ### Set a Default NASIS Group
 
-If the Default NASIS group has not been set, you will need to choose a default NASIS group. This step is required before you can make edits or add new data to NASIS. Click the down arrow at the right of the default NASIS group attribute listed in the window to open a selection menu which will list all the groups of which you are currently a member. It is recommended to choose a point or pedon based group unique to your region and MLRA office, such as "NC-WAV Waverly, IA Projects". The group you choose will be automatically populated as a data column for any new data you create. Consult with other local or regional staff familiar with NASIS or your mentor if you are unsure which group to select.
+If the default "NASIS Group" has not been set, you will need to choose one. This step is required before you can make edits or add new data to NASIS. Click the down arrow at the right of the default NASIS Group attribute listed in the window to open a selection menu which will list all the groups of which you are currently a member. It is recommended to choose a point or pedon based group unique to your region and MLRA office, such as "NC-WAV Waverly, IA Projects". The group you choose will be automatically populated as a data column for any new data you create. Consult with other local or regional staff familiar with NASIS or your mentor if you are unsure which group to select.
 
-![](default-group.png "NASIS Client Default NASIS Group choice list"){fig-alt="NASIS Client Default NASIS Group choice list"}
+![](default-group.png "NASIS Client Default 'NASIS Group' choice list"){fig-alt="NASIS Client Default 'NASIS Group' choice list"}
 
 When you have finished choosing your default group, capture a screenshot of the Manage User Profile window to send to you mentor. You must also click the save button before closing the Manage User Profile window to keep any of the changes you have made.
 

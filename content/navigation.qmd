@@ -45,7 +45,7 @@ If you completed the NASIS pre-course assignment, this next process should be fa
 
 ![](nasis-menu-user-screen.png "NASIS Client NASIS menu with the Manage User Profile... option highlighted"){fig-alt="NASIS Client NASIS menu with the Manage User Profile... option highlighted"}
 
-Note your current default NASIS group and remember it. We will be using a special training group for the duration of the training, and you will need to switch back to this previous group once the training is over. Select the “Basic NASIS Training Group” from the list. If you do not see this group reach out to your mentor to confirm you have been added to the group in NASIS. It is possible your name was missed, or another name was added inadvertently.
+Note your current default NASIS Group and remember it. We will be using a special training group for the duration of the training, and you will need to switch back to this previous group once the training is over. Select the “Basic NASIS Training Group” from the list. If you do not see this group reach out to your mentor to confirm you have been added to the group in NASIS. It is possible your name was missed, or another name was added inadvertently.
 
 ![](2-1-group.png "NASIS Client NASIS Group choice list with Basic NASIS Training Group highlighted"){fig-alt="NASIS Client NASIS Group choice list with Basic NASIS Training Group highlighted"}
 
@@ -91,7 +91,7 @@ The customizations made during the exercise can be retained or can be restored t
 
 ### Sorting
 
-Open the NASIS Site table. Notice there are already rows of data present in this table. This table is unique, its data is already loaded into your table view by default.
+Open the "NASIS Site" table. Notice there are already rows of data present in this table. This table is unique, its data is already loaded into your table view by default.
 
 Practice sorting the data in the columns by clicking on the column names. Notice the orientation of the triangle icon indicates whether the column is sorted in ascending (upright triangle) or descending (inverted triangle) order.
 

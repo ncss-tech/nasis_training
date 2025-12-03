@@ -1,0 +1,15 @@
+project:
+  type: website
+  render:
+    - source/index.qmd
+    - "*.qmd"
+  post-render: post_script.R
+
+execute:
+  echo: true        # Show code by default
+  warning: false    # Hide warnings by default
+  message: false    # Hide messages by default
+
+format:
+  html:
+    toc: true

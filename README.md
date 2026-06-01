@@ -13,5 +13,5 @@ basic training.
  
 ## Build Instructions
 
-Navigate to nasis_training/ folder and run `quarto render .` to build the site.
+Navigate to nasis_training/ folder and run `quarto_render().` to build the site.
 

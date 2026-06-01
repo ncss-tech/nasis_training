@@ -1,6 +1,6 @@
 ---
-title: "NASIS Basic Training"
-subtitle: "Course Content"
+title: "NASIS Training Courses"
+subtitle: "Course Listing"
 author:
   - name: Soil and Plant Science Division Staff
     affiliation:
@@ -10,18 +10,7 @@ date: today
 title-block-banner: "#19567B"
 ---
 
-## Browse Course Exercises
+## Browse Courses
 
-##### 0. [Pre-course Assignment](pre-course.html)
-##### 1. [Introduction](introduction.html)
-##### 2. [Navigation](navigation.html)
-##### 3. [Querying and Loading Data](query-load.html)
-##### 4. [Creating and Editing Data](creating-editing.html)
-##### 5. [Reading and Running Reports](reports.html)
-##### 6. [Importing New Data](import.html)
-##### 7. [Using Forms](forms.html)
-##### 8. [Calculations, Validations, and Interpretations](calcsvals.html)
-##### 9. [Minimum Data Standards](mindata.html)
-##### 10. [Project Management](project.html)
-##### 11. [Technical Soil Services Management](tss.html)
-##### 12. [Ecological and Vegetation Data](veg.html)
+##### 1. [NASIS 1010 - NASIS Basic Training](https://ncss-tech.github.io/nasis_training/content/nasis1010.html)
+##### 2. [NASIS 2020 - NASIS Query and Report Writing](https://ncss-tech.github.io/nasis_training/content/nasis2020.html)

@@ -1,0 +1,48 @@
+---
+title: "NASIS 2020 - NASIS Query and Report Writing"
+subtitle: "Pre-Course Assignment"
+author:
+  - name: Soil and Plant Science Division Staff
+    affiliation:
+    - USDA-NRCS
+format:
+  html:
+    page-layout: full
+    toc: true
+    toc-location: left
+    toc-depth: 3
+date: today
+title-block-banner: "#19567B"
+---
+# Overview
+
+## Purpose
+
+Knowing how to write proper queries and reports in the NASIS client software is an important skill for developing soil scientists and ecological site specialists capable of elevated data management. It provides individuals the capacity to customize retrieval and delivery of data from NASIS to fit specific needs. Having the ability to perform the following objectives of the course below will increase competency, efficiency, quality, and delivery of soil and plant data to our customers.
+
+## Objectives
+
+Upon completion of this training, participants will:
+
+1.	Know basic Structure Query Language (SQL) syntax
+2.	Know the effects of different types of joins on data queries
+3.	Be familiar with NASIS data structure and metadata reference materials
+4.	Be able to write and use fully customized queries in NASIS
+5.	Be able to write and use fully customized reports in NASIS
+
+## Completion
+
+Submission of a final project is required for completion of the NASIS Query and Report Writing Training. More information about the final project is provided in [7 - Final Project](https://ncss-tech.github.io/nasis_training/content/final.html) of the online content.
+
+# Pre-Course Assignment
+
+## Reading
+
+Read the following chapters from the NASIS User Guide:
+
+- Chapter 18 - [Query Writing](https://www.nrcs.usda.gov/sites/default/files/2022-08/Chapter_18__Query_Writing.pdf)
+- Chapter 27 - [Report Manager User Guide](https://www.nrcs.usda.gov/sites/default/files/2022-08/Chapter_27__Web_Soil_Survey_Rules_and_Report_Manager_User_Guide.pdf)
+
+## Software
+
+Ensure NASIS is installed and you can login. Verify this by reviewing the NASIS setup requirements from the [NASIS 1010 Pre-Course Assignment](https://ncss-tech.github.io/nasis_training/content/pre-course.html).

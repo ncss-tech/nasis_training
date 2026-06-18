@@ -1,0 +1,38 @@
+---
+title: "NASIS 2020 - NASIS Query and Report Writing"
+subtitle: "Final Project"
+author:
+  - name: Soil and Plant Science Division Staff
+    affiliation:
+    - USDA-NRCS
+format:
+  html:
+    page-layout: full
+    toc: true
+    toc-location: left
+    toc-depth: 3
+date: today
+title-block-banner: "#19567B"
+---
+# Instructions
+
+Submission of a final project is required for completion of the NASIS Query and Report Writing Course. Use skills gained during the course to demonstrate an understanding of the material and how to apply it to solve real problems or provide tools to meet specific data needs. Reach out to mentors for assistance in designing a final project if needed.
+
+The final project should have a narrative to provide context for the material generated for the demonstration. An outline of the expected final project narrative is provided below.
+
+## Objective
+
+The right soils information can help answer a multitude of questions. Provide some context to explain what question you are trying to answer and why.
+
+## Data Needs
+
+In this section, provide information about which data sources (e.g. NASIS, SDA) are being used to address the needs of the project. Tables? Was it in the database or did it require manipulation?
+
+## Results
+
+Provide and explain the results and the mechanisms used to create them. Be specific, include any queries, reports or scripts and/or refer to them (e.g. in NASIS) for mentors to review.
+
+## Conclusion or Discussion
+
+Use this section to relate the results back to the question you are working to answer.
+

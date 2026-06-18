@@ -13,11 +13,11 @@ title-block-banner: "#19567B"
 ## Browse Course Content
 
 ##### 0. [Pre-Course Assignment](https://ncss-tech.github.io/nasis_training/content/pre-course2020.html)
-##### 1. [Introduction](https://ncss-tech.github.io/nasis_training/content/introduction.html)
-##### 2. [Writing Queries](https://ncss-tech.github.io/nasis_training/content/queries.html)
-##### 3. [Simple Reports](https://ncss-tech.github.io/nasis_training/content/sreports.html)
-##### 4. [Calculations, Validations and Beyond](https://ncss-tech.github.io/nasis_training/content/cvbeyond.html)
-##### 5. [Report Outputs](https://ncss-tech.github.io/nasis_training/content/reportout.html)
-##### 6. [Data Manipulation](https://ncss-tech.github.io/nasis_training/content/datam.html)
-##### 7. [HTML Reports](https://ncss-tech.github.io/nasis_training/content/rpthtml.html)
-##### 8. [Final Project](https://ncss-tech.github.io/nasis_training/content/final.html)
+
+##### 1. [Writing Queries](https://ncss-tech.github.io/nasis_training/content/queries.html)
+##### 2. [Simple Reports](https://ncss-tech.github.io/nasis_training/content/sreports.html)
+##### 3. [Calculations, Validations and Beyond](https://ncss-tech.github.io/nasis_training/content/cvbeyond.html)
+##### 4. [Report Outputs](https://ncss-tech.github.io/nasis_training/content/reportout.html)
+##### 5. [Data Manipulation](https://ncss-tech.github.io/nasis_training/content/datam.html)
+##### 6. [HTML Reports](https://ncss-tech.github.io/nasis_training/content/rpthtml.html)
+##### 7. [Final Project](https://ncss-tech.github.io/nasis_training/content/final.html)
